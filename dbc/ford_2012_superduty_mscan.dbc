@@ -1,0 +1,702 @@
+VERSION "ford_2012_superduty_mscan"
+
+NS_ :
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	BA_DEF_DEF_
+
+BS_:
+
+BU_:
+
+BO_ 131 RAW_083: 8 Vector__XXX
+ SG_ RAW_083_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 269 MS_10D: 8 Vector__XXX
+ SG_ MS_10D_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 292 MS_124_SeatClimate_Request: 8 Vector__XXX
+ SG_ SeatClimate_B0 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ SeatClimate_B1 : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B2_7 : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+
+BO_ 293 RAW_125: 8 Vector__XXX
+ SG_ RAW_125_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 732 RAW_2DC: 8 Vector__XXX
+ SG_ RAW_2DC_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 801 RAW_321: 8 Vector__XXX
+ SG_ RAW_321_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 818 RAW_332: 8 Vector__XXX
+ SG_ RAW_332_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 819 MS_333_DisplayText: 8 Vector__XXX
+ SG_ MS_333_DisplayText_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 862 MS_35E_HVAC: 8 Vector__XXX
+ SG_ MS_35E_HVAC_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 901 RAW_385: 8 Vector__XXX
+ SG_ RAW_385_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 921 RAW_399: 8 Vector__XXX
+ SG_ RAW_399_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 928 MS_3A0_HVAC_Enable: 8 Vector__XXX
+ SG_ PowerModeCandidate : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B1_5 : 15|40@0+ (1,0) [0|1099511627775] "" Vector__XXX
+ SG_ Unknown_B6_7 : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 944 RAW_3B0: 8 Vector__XXX
+ SG_ RAW_3B0_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 946 MS_3B2: 8 Vector__XXX
+ SG_ MS_3B2_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 947 MS_3B3: 8 Vector__XXX
+ SG_ Unknown_B0_2 : 7|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Unknown_B3 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B4_6 : 39|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ Unknown_B7 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 953 RAW_3B9: 8 Vector__XXX
+ SG_ RAW_3B9_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 954 RAW_3BA: 8 Vector__XXX
+ SG_ RAW_3BA_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 956 RAW_3BC: 8 Vector__XXX
+ SG_ RAW_3BC_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 963 RAW_3C3: 8 Vector__XXX
+ SG_ RAW_3C3_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 964 RAW_3C4: 8 Vector__XXX
+ SG_ RAW_3C4_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 966 RAW_3C6: 8 Vector__XXX
+ SG_ RAW_3C6_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 976 RAW_3D0: 8 Vector__XXX
+ SG_ RAW_3D0_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 992 RAW_3E0: 8 Vector__XXX
+ SG_ RAW_3E0_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 994 MS_3E2: 8 Vector__XXX
+ SG_ MS_3E2_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 999 MS_3E7_HVAC: 8 Vector__XXX
+ SG_ MS_3E7_HVAC_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1000 RAW_3E8: 8 Vector__XXX
+ SG_ RAW_3E8_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1002 RAW_3EA: 8 Vector__XXX
+ SG_ RAW_3EA_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1003 RAW_3EB: 7 Vector__XXX
+ SG_ RAW_3EB_Data : 7|56@0+ (1,0) [0|72057594037927935] "" Vector__XXX
+
+BO_ 1006 RAW_3EE: 8 Vector__XXX
+ SG_ RAW_3EE_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1007 RAW_3EF: 8 Vector__XXX
+ SG_ RAW_3EF_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1010 RAW_3F2: 8 Vector__XXX
+ SG_ RAW_3F2_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1034 MS_VIN_Clock_Mux: 8 Vector__XXX
+ SG_ MuxId M : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ VIN_Chars_1_6 m49408 : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+ SG_ VIN_Chars_7_12 m49409 : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+ SG_ VIN_Chars_13_17 m49410 : 23|40@0+ (1,0) [0|1099511627775] "" Vector__XXX
+ SG_ C104_Data m49412 : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+ SG_ C110_Data m49424 : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+ SG_ RealTimeClock m49152 : 31|32@0+ (0.1,0) [0|429496729.5] "s" Vector__XXX
+
+BO_ 1050 MS_41A_HVAC: 8 Vector__XXX
+ SG_ MS_41A_HVAC_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1059 MS_423: 8 Vector__XXX
+ SG_ MS_423_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1061 MS_425: 8 Vector__XXX
+ SG_ MS_425_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1062 MS_426: 8 Vector__XXX
+ SG_ MS_426_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1068 MS_42C: 8 Vector__XXX
+ SG_ MS_42C_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1126 RAW_466: 8 Vector__XXX
+ SG_ RAW_466_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1281 NM_Ring_501: 3 Vector__XXX
+ SG_ DestNode : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ OpAlive : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpRing : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpLimpHome : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepInd : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepAck : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Data_B2 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1283 NM_Ring_503: 3 Vector__XXX
+ SG_ DestNode : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ OpAlive : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpRing : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpLimpHome : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepInd : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepAck : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Data_B2 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1291 NM_Ring_50B: 3 Vector__XXX
+ SG_ DestNode : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ OpAlive : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpRing : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpLimpHome : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepInd : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepAck : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Data_B2 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1292 NM_Ring_50C: 3 Vector__XXX
+ SG_ DestNode : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ OpAlive : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpRing : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpLimpHome : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepInd : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepAck : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Data_B2 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1319 NM_Ring_527: 3 Vector__XXX
+ SG_ DestNode : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ OpAlive : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpRing : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpLimpHome : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepInd : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepAck : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Data_B2 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1339 NM_Ring_53B: 3 Vector__XXX
+ SG_ DestNode : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ OpAlive : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpRing : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpLimpHome : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepInd : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepAck : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Data_B2 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1345 NM_Ring_541: 3 Vector__XXX
+ SG_ DestNode : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ OpAlive : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpRing : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpLimpHome : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepInd : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OpSleepAck : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Data_B2 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1411 MS_583_NodeStartup: 1 Vector__XXX
+ SG_ MS_583_NodeStartup_Data : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+
+CM_ "Logs: truck = friend 2011 bus (VIN in 0x40A, full node set); bench = isolated module(s) on Bo bench, origin unknown (no VIN, only node 03 or 03+27 on the ring). MS-CAN 125 kbit/s (high confidence: back-to-back 8-byte frames are ~1.0 ms apart = ~125 bits at 125k). Recorded 2020-06-02 on a friend 2011 F-350 KR 4x4 (log header + VIN 1FT8W3BT4BE****** in 0x40A, same truck as the HS drive log), plus a bench HVAC+DCSM log 2020-06-12 (no VIN; module origin unknown). Assumed to match Bo 2012 Lariat parts (unverified). The 2020 logs have many single-bit-corrupted frames and stray FD/RTR/extended IDs, so one-off IDs were ignored.";
+CM_ BO_ 928 "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)] Bo (forum 2020): sending 45 00 80 02 89 24 00 00 every 200 ms enables the HVAC controls without 0x501. In the truck it is sent every 1000 ms (also in the 19:18 KOES log, b0=0x45). 2020-06-04 bench replay run 2: the module woke (503) before 3A0 was sent, so 3A0 is the controls-enable, not the NM wake (inferred). 2020-06-10 bench, 3A0 alone at 200 ms: HVAC node stays awake for the whole 19 s in LimpHome (503 03 04 at 1 Hz, never SleepInd) and seat-climate presses show in 0x124. 2020-06-12 bench (HVAC+DCSM, no 0x501): ring 03<->27 stays up while 3A0 runs; ~5.4 s after the last 3A0 both send SleepInd+SleepAck and go quiet. So 3A0 acts as the application keep-awake (likely the power-mode/ignition message), medium. Forum 2020 wake set (3E2, 40A, 423, 425, 426, 42C, 10D, 3A0, 3B2, 3B3) = frames 21-30 of the 19:18 KOES truck capture, i.e. one 1-s burst of periodic frames (selected by replaying the first 10/20/30/40/50 frames, inferred). Replayed alone on 2020-06-04 it woke the bench module.";
+CM_ SG_ 928 PowerModeCandidate "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)] b0: 0x11 in the key-off log, 0x11/0x15/0x44/0x45 in the KOES log. On the bench, 3A0 with b0=0x45 every 200 ms holds the HVAC/DCSM awake, so this is probably ignition/power mode (0x45 = run).";
+CM_ SG_ 928 Unknown_B1_5 "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)] Constant 00 80 02 89 24 in both logs.";
+CM_ SG_ 928 Unknown_B6_7 "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)] Constant 00 00.";
+CM_ BO_ 947 "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Wake set frame. Forum/KOES value 00 43 05 12 00 00 00 38; key off 00 43 05 00 00 00 00 00. 1000 ms. Different layout from HS 0x3B3. Forum 2020 wake set (3E2, 40A, 423, 425, 426, 42C, 10D, 3A0, 3B2, 3B3) = frames 21-30 of the 19:18 KOES truck capture, i.e. one 1-s burst of periodic frames (selected by replaying the first 10/20/30/40/50 frames, inferred). Replayed alone on 2020-06-04 it woke the bench module.";
+CM_ SG_ 947 Unknown_B0_2 "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] 00 43 05 typical.";
+CM_ SG_ 947 Unknown_B3 "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] 0x12 with ignition on, 0x00 key off.";
+CM_ SG_ 947 Unknown_B4_6 "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Mostly 0.";
+CM_ SG_ 947 Unknown_B7 "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] 0x38 or 0x30 with ignition on, 0x00 key off.";
+CM_ BO_ 292 "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan); forum 2020 (electro-tech-online 158834)] Sent by the HVAC/climate module (node 03) at ~1008 ms plus immediately on change; it was the only node on the 2020-06-04 and 06-10 benches and still sent it. Carries the climate-seat (TED heat/cool) selections, most likely the HVAC -> DCSM request Bo found in 2020 (medium). 0x125 on the truck carries the same payloads (DCSM echo/status? low).";
+CM_ SG_ 292 SeatClimate_B0 "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan); forum 2020 (electro-tech-online 158834)] b0: first seat (driver? low). One-hot climate-seat state. On the bench each press steps 80->40->20->02(off) and 10->08->04->02(off), i.e. two modes with 3 levels each. Bo (2026-10): each seat (driver and passenger) has 3 heating and 3 cooling levels, so one mode is heat and the other cool (medium), but which is which is NOT known, and which byte is driver is NOT confirmed (low); the level encoding is medium. Truck KOES log (Driver Seat, Pass Seat test) shows 10 10 and 02 02.";
+CM_ SG_ 292 SeatClimate_B1 "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan); forum 2020 (electro-tech-online 158834)] b1: second seat (passenger? low). Same encoding; seen on the 2020-06-12 bench stepping 80,10,08,04,02 while b0 stayed 10 or 02. One-hot climate-seat state. On the bench each press steps 80->40->20->02(off) and 10->08->04->02(off), i.e. two modes with 3 levels each. Bo (2026-10): each seat (driver and passenger) has 3 heating and 3 cooling levels, so one mode is heat and the other cool (medium), but which is which is NOT known, and which byte is driver is NOT confirmed (low); the level encoding is medium. Truck KOES log (Driver Seat, Pass Seat test) shows 10 10 and 02 02.";
+CM_ SG_ 292 Unknown_B2_7 "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan); forum 2020 (electro-tech-online 158834)] Always 0 apart from single-bit noise.";
+CM_ BO_ 862 "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)] HVAC-module periodic output (also sent with only node 03 on the bench). Typical 80 00 00 00 00 00 00 00. ~1008 ms. Varying bytes [0, 1, 2, 4, 5, 7], typical 80 00 00 00 00 00 00 00.";
+CM_ SG_ 862 MS_35E_HVAC_Data "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 999 "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)] HVAC-module periodic output (also sent with only node 03 on the bench). Typical all zeros. ~1008 ms. Varying bytes [2, 3, 5, 6], typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 999 MS_3E7_HVAC_Data "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1050 "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)] HVAC-module periodic output (see 0x124). Truck 00 00 98 6x Bx 06 75 90; bench module 00 00 FF 60 A2 06 75 90 (first frame after wake 00 00 FE 00 00 06 41 90); bench run 2 b2 FF -> 64 after ~2.3 s. ~1008 ms. Varying bytes [0, 1, 2, 3, 4, 5], typical 00 00 98 68 b6 06 75 90.";
+CM_ SG_ 1050 MS_41A_HVAC_Data "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 994 "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Forum 2020 wake set (3E2, 40A, 423, 425, 426, 42C, 10D, 3A0, 3B2, 3B3) = frames 21-30 of the 19:18 KOES truck capture, i.e. one 1-s burst of periodic frames (selected by replaying the first 10/20/30/40/50 frames, inferred). Replayed alone on 2020-06-04 it woke the bench module. Period 1000 ms, varying bytes [0, 1, 3, 4, 5, 6, 7], typical 00 00 00 00 00 00 80 4a (key-off log typical 00 00 00 00 00 00 80 4e).";
+CM_ SG_ 994 MS_3E2_Data "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1059 "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Forum 2020 wake set (3E2, 40A, 423, 425, 426, 42C, 10D, 3A0, 3B2, 3B3) = frames 21-30 of the 19:18 KOES truck capture, i.e. one 1-s burst of periodic frames (selected by replaying the first 10/20/30/40/50 frames, inferred). Replayed alone on 2020-06-04 it woke the bench module. Period 100 ms, varying bytes [0, 1, 2, 3, 4, 5, 6, 7], typical 27 10 09 60 28 00 00 00 (key-off log typical ff ff ff ff 20 00 00 00).";
+CM_ SG_ 1059 MS_423_Data "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1061 "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Forum 2020 wake set (3E2, 40A, 423, 425, 426, 42C, 10D, 3A0, 3B2, 3B3) = frames 21-30 of the 19:18 KOES truck capture, i.e. one 1-s burst of periodic frames (selected by replaying the first 10/20/30/40/50 frames, inferred). Replayed alone on 2020-06-04 it woke the bench module. Period 100 ms, varying bytes [0, 1, 2, 3, 4, 5, 6, 7], typical 58 00 00 e1 2c 80 af d1 (key-off log typical 90 00 00 c0 00 00 b1 c0).";
+CM_ SG_ 1061 MS_425_Data "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1062 "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Forum 2020 wake set (3E2, 40A, 423, 425, 426, 42C, 10D, 3A0, 3B2, 3B3) = frames 21-30 of the 19:18 KOES truck capture, i.e. one 1-s burst of periodic frames (selected by replaying the first 10/20/30/40/50 frames, inferred). Replayed alone on 2020-06-04 it woke the bench module. Period 52 ms, varying bytes [0, 1, 2, 3, 4, 5, 6, 7], typical aa 00 00 00 00 00 58 00 (key-off log typical aa 00 00 00 00 00 88 00).";
+CM_ SG_ 1062 MS_426_Data "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 269 "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Forum 2020 wake set (3E2, 40A, 423, 425, 426, 42C, 10D, 3A0, 3B2, 3B3) = frames 21-30 of the 19:18 KOES truck capture, i.e. one 1-s burst of periodic frames (selected by replaying the first 10/20/30/40/50 frames, inferred). Replayed alone on 2020-06-04 it woke the bench module. Period 1000 ms, varying bytes [0, 2, 3, 4, 6], typical 00 00 00 00 00 00 00 00 (key-off log typical 00 00 00 00 00 00 00 00).";
+CM_ SG_ 269 MS_10D_Data "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 946 "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Forum 2020 wake set (3E2, 40A, 423, 425, 426, 42C, 10D, 3A0, 3B2, 3B3) = frames 21-30 of the 19:18 KOES truck capture, i.e. one 1-s burst of periodic frames (selected by replaying the first 10/20/30/40/50 frames, inferred). Replayed alone on 2020-06-04 it woke the bench module. Period 200 ms, varying bytes [0, 1, 2, 3, 4, 5, 6, 7], typical 00 01 0c 4f 40 00 fe 00 (key-off log typical 00 00 00 73 00 00 fe 00).";
+CM_ SG_ 946 MS_3B2_Data "[conf=low] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1068 "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Wake set. All zeros at 1000 ms on MS (HS 0x42C is 88 01 88 14 00 64 02 00 at 50 ms).";
+CM_ SG_ 1068 MS_42C_Data "[conf=medium] [src=forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1034 "[conf=high] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Same multiplexed VIN/clock frame as HS 0x40A, 200 ms. Same VIN 1FT8W3BT4BE****** (friend 2011 F-350 6.7L) appears on HS and MS. Wake set member.";
+CM_ SG_ 1034 MuxId "[conf=high] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] ";
+CM_ SG_ 1034 VIN_Chars_1_6 "[conf=high] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] ASCII.";
+CM_ SG_ 1034 VIN_Chars_7_12 "[conf=high] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] ASCII.";
+CM_ SG_ 1034 VIN_Chars_13_17 "[conf=high] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] ASCII.";
+CM_ SG_ 1034 C104_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] ";
+CM_ SG_ 1034 C110_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] ";
+CM_ SG_ 1034 RealTimeClock "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] 0.1 s clock, epoch ~2010-10-16.";
+CM_ BO_ 819 "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Event-driven multi-frame text (ISO-TP-like: 10 len, 21.., 22..), e.g. Bluetooth Connected / Bluetooth Disconnected. Likely SYNC/APIM text for the cluster display.";
+CM_ SG_ 819 MS_333_DisplayText_Data "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1281 "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] Network-management ring, sender node 0x01. Truck ring order 01->03->0B->0C->27->3B->41->01 (successor of this node: 0x03). Ring hop ~200 ms per node. Bench 2020-06-10 20:33 (HVAC alone): 501 03 02 00 at 200 ms -> every reply 503 01 12 00 (Ring to 01 + SleepInd) and HVAC output continuous for the whole 7.5 s log: a stable keep-awake. Tests with the same payload on other IDs failed: 000#030200 (wakes, then 7.4 s wake/sleep cycles), 580#030100 and 583#030100 (LimpHome then sleep after ~5 s). Forum: transmitting 501 03 02 00 every 200 ms keeps the module awake; it replied 503 01 12 00. Bench log: 501 03 02 00 at 200 ms, ring 01->03->27->01.";
+CM_ SG_ 1281 DestNode "[conf=high] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] b0 = next node in the ring (or own ID in Alive frames).";
+CM_ SG_ 1281 OpAlive "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1281 OpRing "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1281 OpLimpHome "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1281 OpSleepInd "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1281 OpSleepAck "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1281 Data_B2 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] Always 00 seen.";
+CM_ BO_ 1283 "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)] Network-management ring, sender node 0x03. Truck ring order 01->03->0B->0C->27->3B->41->01 (successor of this node: 0x0B). Ring hop ~200 ms per node. Bench 2020-06-12: 503 27 12 00 (ring to 0x27) at ~200 ms. Forum reply 01 12 00. Bench 2020-06-10: same pattern after the 7-frame (3E2..10D) and 9-frame (+3B2,3B3) replays; with nonstop 000#030200 traffic it cycles: awake 5.5 s, silent ~1.9 s, wakes again (7.4 s period, HVAC output gone during the gap). Bench replay 2020-06-04, node 03 alone: first 503 within 8-58 ms of the replay (run 2: before 0x3A0 was sent, so 3A0 is not needed to wake it), then 03 01 / 03 02 (Alive / Ring to itself) alternating, LimpHome 03 04 at 1 Hz from +2.46 s, LimpHome+SleepInd 03 14 at +5.48 s, then silence: a one-shot wake burst keeps it up ~5.5 s; staying awake needs an NM ring partner (e.g. 501 03 02 at 200 ms) or continued traffic (inferred).";
+CM_ SG_ 1283 DestNode "[conf=high] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)] b0 = next node in the ring (or own ID in Alive frames).";
+CM_ SG_ 1283 OpAlive "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1283 OpRing "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1283 OpLimpHome "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1283 OpSleepInd "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1283 OpSleepAck "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1283 Data_B2 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)] Always 00 seen.";
+CM_ BO_ 1291 "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] Network-management ring, sender node 0x0B. Truck ring order 01->03->0B->0C->27->3B->41->01 (successor of this node: 0x0C). Ring hop ~200 ms per node.";
+CM_ SG_ 1291 DestNode "[conf=high] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] b0 = next node in the ring (or own ID in Alive frames).";
+CM_ SG_ 1291 OpAlive "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1291 OpRing "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1291 OpLimpHome "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1291 OpSleepInd "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1291 OpSleepAck "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1291 Data_B2 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] Always 00 seen.";
+CM_ BO_ 1292 "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] Network-management ring, sender node 0x0C. Truck ring order 01->03->0B->0C->27->3B->41->01 (successor of this node: 0x27). Ring hop ~200 ms per node.";
+CM_ SG_ 1292 DestNode "[conf=high] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] b0 = next node in the ring (or own ID in Alive frames).";
+CM_ SG_ 1292 OpAlive "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1292 OpRing "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1292 OpLimpHome "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1292 OpSleepInd "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1292 OpSleepAck "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1292 Data_B2 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] Always 00 seen.";
+CM_ BO_ 1319 "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] Network-management ring, sender node 0x27. Truck ring order 01->03->0B->0C->27->3B->41->01 (successor of this node: 0x3B). Ring hop ~200 ms per node. Bench 2020-06-12: 527 01 12 00 (to Bo tool node 01). Node 0x27 = DCSM by elimination (06-04/06-10 benches had only node 03 = HVAC), medium. With 3A0 but no node 01 (06-12 19:46), 03 and 27 form their own ring (503 27 02 / 527 03 12) but 527 03 14 (LimpHome+SleepInd) breaks it every ~8-10 s and it re-forms; final 527 03 32 = SleepInd+SleepAck ~5.4 s after 3A0 stopped.";
+CM_ SG_ 1319 DestNode "[conf=high] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] b0 = next node in the ring (or own ID in Alive frames).";
+CM_ SG_ 1319 OpAlive "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1319 OpRing "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1319 OpLimpHome "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1319 OpSleepInd "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1319 OpSleepAck "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1319 Data_B2 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] Always 00 seen.";
+CM_ BO_ 1339 "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] Network-management ring, sender node 0x3B. Truck ring order 01->03->0B->0C->27->3B->41->01 (successor of this node: 0x41). Ring hop ~200 ms per node.";
+CM_ SG_ 1339 DestNode "[conf=high] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] b0 = next node in the ring (or own ID in Alive frames).";
+CM_ SG_ 1339 OpAlive "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1339 OpRing "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1339 OpLimpHome "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1339 OpSleepInd "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1339 OpSleepAck "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1339 Data_B2 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] Always 00 seen.";
+CM_ BO_ 1345 "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] Network-management ring, sender node 0x41. Truck ring order 01->03->0B->0C->27->3B->41->01 (successor of this node: 0x01). Ring hop ~200 ms per node.";
+CM_ SG_ 1345 DestNode "[conf=high] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] b0 = next node in the ring (or own ID in Alive frames).";
+CM_ SG_ 1345 OpAlive "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1345 OpRing "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1345 OpLimpHome "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1345 OpSleepInd "[conf=medium] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1345 OpSleepAck "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] OSEK-style NM opcode byte: bit0 Alive, bit1 Ring, bit2 LimpHome, bit4 SleepInd, bit5 SleepAck (bits seen: 01,02,04,11,12,14,32).";
+CM_ SG_ 1345 Data_B2 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)] Always 00 seen.";
+CM_ BO_ 1411 "[conf=low] [src=bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)] Seen once on the 2020-06-04 bench, 60 ms after wake: 583 00 (DLC 1), from the waking node 03 (inferred). On 2020-06-10 Bo transmitted 583 03 01 00 at 200 ms as a test: no keep-awake effect. The 0x581/0x583 frames in the truck logs are bit-flipped 0x501/0x503 copies, not this.";
+CM_ SG_ 1411 MS_583_NodeStartup_Data "[conf=low] [src=bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1126 "[conf=low] [src=MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Event bursts on the truck (19:18 KOES log): 10-20 identical copies ~1 ms apart, once per second for ~3 s, payload 10 48 Dx 5B C6 60 A0 00 with b2 D0->D4->D8; 19:16 log had 10 3C 38 53 C6 60 A0 00 once. Repeated copies suggest retransmissions (unverified). Not a bit-flip of 0x426 (different payload).";
+CM_ SG_ 1126 RAW_466_Data "[conf=low] [src=MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 131 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 60 ms, varying bytes [0, 1, 2, 3, 4, 5, 6, 7], typical 00 00 00 60 00 01 7e d4.";
+CM_ SG_ 131 RAW_083_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 293 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 1023 ms, varying bytes [0, 1, 2, 4, 5, 6], typical 10 10 00 00 00 00 00 00.";
+CM_ SG_ 293 RAW_125_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 732 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded. Event/burst (n=4), varying bytes none, typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 732 RAW_2DC_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 801 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Event/burst (n=15), varying bytes [1], typical 99 01 01 00 00 00 00 00.";
+CM_ SG_ 801 RAW_321_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 818 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Event/burst (n=3), varying bytes [3], typical 01 99 01 01 fe 00 00 00.";
+CM_ SG_ 818 RAW_332_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 901 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 1000 ms, varying bytes [2, 3], typical 00 ea 02 f2 19 00 00 00.";
+CM_ SG_ 901 RAW_385_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 921 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 987 ms, varying bytes [0, 1, 2, 4, 5, 6], typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 921 RAW_399_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 944 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 100 ms, varying bytes [0, 1, 2, 3, 4, 5, 6, 7], typical 0d 00 00 00 00 00 00 00. 3B0 b0=0D first frame after key inserted.";
+CM_ SG_ 944 RAW_3B0_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 953 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Event/burst (n=8), varying bytes [0, 1, 2, 3, 4, 5, 6, 7], typical c1 c1 c1 c1 c9 38 c1 c2.";
+CM_ SG_ 953 RAW_3B9_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 954 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Event/burst (n=13), varying bytes [0, 1, 2, 3, 4, 5, 6], typical 33 9b 4b a5 00 06 00 00.";
+CM_ SG_ 954 RAW_3BA_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 956 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 100 ms, varying bytes [0, 1, 2, 3, 4, 5, 6, 7], typical 00 00 32 80 9e 00 a6 00.";
+CM_ SG_ 956 RAW_3BC_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 963 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 1000 ms, varying bytes [0, 1, 2, 3, 4, 6, 7], typical 00 00 01 00 01 41 0b 00.";
+CM_ SG_ 963 RAW_3C3_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 964 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 1000 ms, varying bytes [2, 3, 4, 5, 6, 7], typical 00 34 94 81 00 c1 a4 b8. 19:18 KOES log: period 200 ms.";
+CM_ SG_ 964 RAW_3C4_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 966 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 1000 ms, varying bytes [0, 1, 2, 3, 4, 5, 6, 7], typical 80 00 00 00 00 00 00 00.";
+CM_ SG_ 966 RAW_3C6_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 976 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 1000 ms, varying bytes [0, 1, 2, 3, 4, 6, 7], typical 02 41 00 00 00 00 00 00.";
+CM_ SG_ 976 RAW_3D0_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 992 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 962 ms, varying bytes [0, 1, 4, 5, 6, 7], typical 00 00 00 00 83 c0 00 00.";
+CM_ SG_ 992 RAW_3E0_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1000 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Event/burst (n=18), varying bytes [2, 7], typical 00 00 1b 64 00 00 04 80.";
+CM_ SG_ 1000 RAW_3E8_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1002 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded. Event/burst (n=7), varying bytes [1, 3, 5, 6, 7], typical 00 00 00 84 00 00 00 00.";
+CM_ SG_ 1002 RAW_3EA_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1003 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 1000 ms, varying bytes [0, 1, 2, 3, 4, 6], typical 80 1e 70 80 80 50 00.";
+CM_ SG_ 1003 RAW_3EB_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1006 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded. Median period 1 ms, varying bytes [0, 1, 2, 7], typical 01 02 00 00 00 00 00 00.";
+CM_ SG_ 1006 RAW_3EE_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1007 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Median period 1 ms, varying bytes [0, 1, 2, 3, 4, 5, 6, 7], typical 40 64 32 48 43 60 51 00.";
+CM_ SG_ 1007 RAW_3EF_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1010 "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded. Event/burst (n=12), varying bytes [0, 1, 2, 3, 4, 5, 6, 7], typical 07 13 02 06 20 c0 00 00.";
+CM_ SG_ 1010 RAW_3F2_Data "[conf=low] [src=MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)] Undecoded payload, big-endian integer of all bytes.";
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ BO_ "MsgConfidence" ENUM "high","medium","low";
+BA_DEF_ BO_ "MsgSource" STRING ;
+BA_DEF_ SG_ "SigConfidence" ENUM "high","medium","low";
+BA_DEF_ SG_ "SigSource" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "Baudrate" INT 0 1000000;
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "MsgConfidence" "low";
+BA_DEF_DEF_ "MsgSource" "";
+BA_DEF_DEF_ "SigConfidence" "low";
+BA_DEF_DEF_ "SigSource" "";
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "Baudrate" 500000;
+BA_ "BusType" "CAN";
+BA_ "Baudrate" 125000;
+BA_ "GenMsgCycleTime" BO_ 928 1000;
+BA_ "MsgConfidence" BO_ 928 1;
+BA_ "MsgSource" BO_ 928 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)";
+BA_ "SigConfidence" SG_ 928 PowerModeCandidate 1;
+BA_ "SigSource" SG_ 928 PowerModeCandidate "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)";
+BA_ "SigConfidence" SG_ 928 Unknown_B1_5 1;
+BA_ "SigSource" SG_ 928 Unknown_B1_5 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)";
+BA_ "SigConfidence" SG_ 928 Unknown_B6_7 1;
+BA_ "SigSource" SG_ 928 Unknown_B6_7 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)";
+BA_ "GenMsgCycleTime" BO_ 947 1000;
+BA_ "MsgConfidence" BO_ 947 1;
+BA_ "MsgSource" BO_ 947 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 947 Unknown_B0_2 1;
+BA_ "SigSource" SG_ 947 Unknown_B0_2 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 947 Unknown_B3 2;
+BA_ "SigSource" SG_ 947 Unknown_B3 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 947 Unknown_B4_6 2;
+BA_ "SigSource" SG_ 947 Unknown_B4_6 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 947 Unknown_B7 2;
+BA_ "SigSource" SG_ 947 Unknown_B7 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "GenMsgCycleTime" BO_ 292 1008;
+BA_ "MsgConfidence" BO_ 292 1;
+BA_ "MsgSource" BO_ 292 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 292 SeatClimate_B0 1;
+BA_ "SigSource" SG_ 292 SeatClimate_B0 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 292 SeatClimate_B1 1;
+BA_ "SigSource" SG_ 292 SeatClimate_B1 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 292 Unknown_B2_7 1;
+BA_ "SigSource" SG_ 292 Unknown_B2_7 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan); forum 2020 (electro-tech-online 158834)";
+BA_ "GenMsgCycleTime" BO_ 862 1008;
+BA_ "MsgConfidence" BO_ 862 1;
+BA_ "MsgSource" BO_ 862 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)";
+BA_ "SigConfidence" SG_ 862 MS_35E_HVAC_Data 1;
+BA_ "SigSource" SG_ 862 MS_35E_HVAC_Data "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)";
+BA_ "GenMsgCycleTime" BO_ 999 1008;
+BA_ "MsgConfidence" BO_ 999 1;
+BA_ "MsgSource" BO_ 999 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)";
+BA_ "SigConfidence" SG_ 999 MS_3E7_HVAC_Data 1;
+BA_ "SigSource" SG_ 999 MS_3E7_HVAC_Data "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)";
+BA_ "GenMsgCycleTime" BO_ 1050 1008;
+BA_ "MsgConfidence" BO_ 1050 1;
+BA_ "MsgSource" BO_ 1050 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)";
+BA_ "SigConfidence" SG_ 1050 MS_41A_HVAC_Data 1;
+BA_ "SigSource" SG_ 1050 MS_41A_HVAC_Data "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF); bench 2020-06-10 (HVAC module alone = NM node 03, origin unknown; captures/2020-mscan); bench 2020-06-12 (HVAC node 03 + DCSM node 27, origin unknown; captures/2020-mscan)";
+BA_ "GenMsgCycleTime" BO_ 994 1000;
+BA_ "MsgConfidence" BO_ 994 2;
+BA_ "MsgSource" BO_ 994 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 994 MS_3E2_Data 2;
+BA_ "SigSource" SG_ 994 MS_3E2_Data "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "GenMsgCycleTime" BO_ 1059 100;
+BA_ "MsgConfidence" BO_ 1059 2;
+BA_ "MsgSource" BO_ 1059 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1059 MS_423_Data 2;
+BA_ "SigSource" SG_ 1059 MS_423_Data "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "GenMsgCycleTime" BO_ 1061 100;
+BA_ "MsgConfidence" BO_ 1061 2;
+BA_ "MsgSource" BO_ 1061 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1061 MS_425_Data 2;
+BA_ "SigSource" SG_ 1061 MS_425_Data "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "GenMsgCycleTime" BO_ 1062 52;
+BA_ "MsgConfidence" BO_ 1062 2;
+BA_ "MsgSource" BO_ 1062 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1062 MS_426_Data 2;
+BA_ "SigSource" SG_ 1062 MS_426_Data "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "GenMsgCycleTime" BO_ 269 1000;
+BA_ "MsgConfidence" BO_ 269 2;
+BA_ "MsgSource" BO_ 269 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 269 MS_10D_Data 2;
+BA_ "SigSource" SG_ 269 MS_10D_Data "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "GenMsgCycleTime" BO_ 946 200;
+BA_ "MsgConfidence" BO_ 946 2;
+BA_ "MsgSource" BO_ 946 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 946 MS_3B2_Data 2;
+BA_ "SigSource" SG_ 946 MS_3B2_Data "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "GenMsgCycleTime" BO_ 1068 1000;
+BA_ "MsgConfidence" BO_ 1068 1;
+BA_ "MsgSource" BO_ 1068 "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1068 MS_42C_Data 1;
+BA_ "SigSource" SG_ 1068 MS_42C_Data "forum 2020 (electro-tech-online 158834); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "GenMsgCycleTime" BO_ 1034 200;
+BA_ "MsgConfidence" BO_ 1034 0;
+BA_ "MsgSource" BO_ 1034 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 MuxId 0;
+BA_ "SigSource" SG_ 1034 MuxId "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 VIN_Chars_1_6 0;
+BA_ "SigSource" SG_ 1034 VIN_Chars_1_6 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 VIN_Chars_7_12 0;
+BA_ "SigSource" SG_ 1034 VIN_Chars_7_12 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 VIN_Chars_13_17 0;
+BA_ "SigSource" SG_ 1034 VIN_Chars_13_17 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 C104_Data 2;
+BA_ "SigSource" SG_ 1034 C104_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 C110_Data 2;
+BA_ "SigSource" SG_ 1034 C110_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 RealTimeClock 1;
+BA_ "SigSource" SG_ 1034 RealTimeClock "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "MsgConfidence" BO_ 819 1;
+BA_ "MsgSource" BO_ 819 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 819 MS_333_DisplayText_Data 1;
+BA_ "SigSource" SG_ 819 MS_333_DisplayText_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "GenMsgCycleTime" BO_ 1281 400;
+BA_ "MsgConfidence" BO_ 1281 1;
+BA_ "MsgSource" BO_ 1281 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1281 DestNode 0;
+BA_ "SigSource" SG_ 1281 DestNode "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1281 OpAlive 1;
+BA_ "SigSource" SG_ 1281 OpAlive "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1281 OpRing 1;
+BA_ "SigSource" SG_ 1281 OpRing "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1281 OpLimpHome 2;
+BA_ "SigSource" SG_ 1281 OpLimpHome "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1281 OpSleepInd 1;
+BA_ "SigSource" SG_ 1281 OpSleepInd "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1281 OpSleepAck 2;
+BA_ "SigSource" SG_ 1281 OpSleepAck "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1281 Data_B2 2;
+BA_ "SigSource" SG_ 1281 Data_B2 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "GenMsgCycleTime" BO_ 1283 363;
+BA_ "MsgConfidence" BO_ 1283 1;
+BA_ "MsgSource" BO_ 1283 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)";
+BA_ "SigConfidence" SG_ 1283 DestNode 0;
+BA_ "SigSource" SG_ 1283 DestNode "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)";
+BA_ "SigConfidence" SG_ 1283 OpAlive 1;
+BA_ "SigSource" SG_ 1283 OpAlive "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)";
+BA_ "SigConfidence" SG_ 1283 OpRing 1;
+BA_ "SigSource" SG_ 1283 OpRing "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)";
+BA_ "SigConfidence" SG_ 1283 OpLimpHome 2;
+BA_ "SigSource" SG_ 1283 OpLimpHome "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)";
+BA_ "SigConfidence" SG_ 1283 OpSleepInd 1;
+BA_ "SigSource" SG_ 1283 OpSleepInd "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)";
+BA_ "SigConfidence" SG_ 1283 OpSleepAck 2;
+BA_ "SigSource" SG_ 1283 OpSleepAck "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)";
+BA_ "SigConfidence" SG_ 1283 Data_B2 2;
+BA_ "SigSource" SG_ 1283 Data_B2 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834); bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)";
+BA_ "MsgConfidence" BO_ 1291 1;
+BA_ "MsgSource" BO_ 1291 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1291 DestNode 0;
+BA_ "SigSource" SG_ 1291 DestNode "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1291 OpAlive 1;
+BA_ "SigSource" SG_ 1291 OpAlive "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1291 OpRing 1;
+BA_ "SigSource" SG_ 1291 OpRing "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1291 OpLimpHome 2;
+BA_ "SigSource" SG_ 1291 OpLimpHome "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1291 OpSleepInd 1;
+BA_ "SigSource" SG_ 1291 OpSleepInd "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1291 OpSleepAck 2;
+BA_ "SigSource" SG_ 1291 OpSleepAck "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1291 Data_B2 2;
+BA_ "SigSource" SG_ 1291 Data_B2 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "GenMsgCycleTime" BO_ 1292 200;
+BA_ "MsgConfidence" BO_ 1292 1;
+BA_ "MsgSource" BO_ 1292 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1292 DestNode 0;
+BA_ "SigSource" SG_ 1292 DestNode "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1292 OpAlive 1;
+BA_ "SigSource" SG_ 1292 OpAlive "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1292 OpRing 1;
+BA_ "SigSource" SG_ 1292 OpRing "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1292 OpLimpHome 2;
+BA_ "SigSource" SG_ 1292 OpLimpHome "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1292 OpSleepInd 1;
+BA_ "SigSource" SG_ 1292 OpSleepInd "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1292 OpSleepAck 2;
+BA_ "SigSource" SG_ 1292 OpSleepAck "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1292 Data_B2 2;
+BA_ "SigSource" SG_ 1292 Data_B2 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "GenMsgCycleTime" BO_ 1319 470;
+BA_ "MsgConfidence" BO_ 1319 1;
+BA_ "MsgSource" BO_ 1319 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1319 DestNode 0;
+BA_ "SigSource" SG_ 1319 DestNode "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1319 OpAlive 1;
+BA_ "SigSource" SG_ 1319 OpAlive "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1319 OpRing 1;
+BA_ "SigSource" SG_ 1319 OpRing "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1319 OpLimpHome 2;
+BA_ "SigSource" SG_ 1319 OpLimpHome "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1319 OpSleepInd 1;
+BA_ "SigSource" SG_ 1319 OpSleepInd "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1319 OpSleepAck 2;
+BA_ "SigSource" SG_ 1319 OpSleepAck "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1319 Data_B2 2;
+BA_ "SigSource" SG_ 1319 Data_B2 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "GenMsgCycleTime" BO_ 1339 436;
+BA_ "MsgConfidence" BO_ 1339 1;
+BA_ "MsgSource" BO_ 1339 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1339 DestNode 0;
+BA_ "SigSource" SG_ 1339 DestNode "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1339 OpAlive 1;
+BA_ "SigSource" SG_ 1339 OpAlive "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1339 OpRing 1;
+BA_ "SigSource" SG_ 1339 OpRing "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1339 OpLimpHome 2;
+BA_ "SigSource" SG_ 1339 OpLimpHome "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1339 OpSleepInd 1;
+BA_ "SigSource" SG_ 1339 OpSleepInd "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1339 OpSleepAck 2;
+BA_ "SigSource" SG_ 1339 OpSleepAck "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1339 Data_B2 2;
+BA_ "SigSource" SG_ 1339 Data_B2 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "GenMsgCycleTime" BO_ 1345 440;
+BA_ "MsgConfidence" BO_ 1345 1;
+BA_ "MsgSource" BO_ 1345 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1345 DestNode 0;
+BA_ "SigSource" SG_ 1345 DestNode "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1345 OpAlive 1;
+BA_ "SigSource" SG_ 1345 OpAlive "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1345 OpRing 1;
+BA_ "SigSource" SG_ 1345 OpRing "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1345 OpLimpHome 2;
+BA_ "SigSource" SG_ 1345 OpLimpHome "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1345 OpSleepInd 1;
+BA_ "SigSource" SG_ 1345 OpSleepInd "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1345 OpSleepAck 2;
+BA_ "SigSource" SG_ 1345 OpSleepAck "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "SigConfidence" SG_ 1345 Data_B2 2;
+BA_ "SigSource" SG_ 1345 Data_B2 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX); bench 0x5xx HVAC+DCSM log 2020-06-12 (bench modules, origin unknown); forum 2020 (electro-tech-online 158834)";
+BA_ "MsgConfidence" BO_ 1411 2;
+BA_ "MsgSource" BO_ 1411 "bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)";
+BA_ "SigConfidence" SG_ 1411 MS_583_NodeStartup_Data 2;
+BA_ "SigSource" SG_ 1411 MS_583_NodeStartup_Data "bench wake-set replay 2020-06-04 (bench module(s), origin unknown; captures/2020-mscan src22FF)";
+BA_ "MsgConfidence" BO_ 1126 2;
+BA_ "MsgSource" BO_ 1126 "MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 1126 RAW_466_Data 2;
+BA_ "SigSource" SG_ 1126 RAW_466_Data "MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "GenMsgCycleTime" BO_ 131 60;
+BA_ "MsgConfidence" BO_ 131 2;
+BA_ "MsgSource" BO_ 131 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 131 RAW_083_Data 2;
+BA_ "SigSource" SG_ 131 RAW_083_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "GenMsgCycleTime" BO_ 293 1023;
+BA_ "MsgConfidence" BO_ 293 2;
+BA_ "MsgSource" BO_ 293 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 293 RAW_125_Data 2;
+BA_ "SigSource" SG_ 293 RAW_125_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "MsgConfidence" BO_ 732 2;
+BA_ "MsgSource" BO_ 732 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 732 RAW_2DC_Data 2;
+BA_ "SigSource" SG_ 732 RAW_2DC_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "MsgConfidence" BO_ 801 2;
+BA_ "MsgSource" BO_ 801 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 801 RAW_321_Data 2;
+BA_ "SigSource" SG_ 801 RAW_321_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "MsgConfidence" BO_ 818 2;
+BA_ "MsgSource" BO_ 818 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 818 RAW_332_Data 2;
+BA_ "SigSource" SG_ 818 RAW_332_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "GenMsgCycleTime" BO_ 901 1000;
+BA_ "MsgConfidence" BO_ 901 2;
+BA_ "MsgSource" BO_ 901 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 901 RAW_385_Data 2;
+BA_ "SigSource" SG_ 901 RAW_385_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "GenMsgCycleTime" BO_ 921 987;
+BA_ "MsgConfidence" BO_ 921 2;
+BA_ "MsgSource" BO_ 921 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 921 RAW_399_Data 2;
+BA_ "SigSource" SG_ 921 RAW_399_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "GenMsgCycleTime" BO_ 944 100;
+BA_ "MsgConfidence" BO_ 944 2;
+BA_ "MsgSource" BO_ 944 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 944 RAW_3B0_Data 2;
+BA_ "SigSource" SG_ 944 RAW_3B0_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "MsgConfidence" BO_ 953 2;
+BA_ "MsgSource" BO_ 953 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 953 RAW_3B9_Data 2;
+BA_ "SigSource" SG_ 953 RAW_3B9_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "MsgConfidence" BO_ 954 2;
+BA_ "MsgSource" BO_ 954 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 954 RAW_3BA_Data 2;
+BA_ "SigSource" SG_ 954 RAW_3BA_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "GenMsgCycleTime" BO_ 956 100;
+BA_ "MsgConfidence" BO_ 956 2;
+BA_ "MsgSource" BO_ 956 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 956 RAW_3BC_Data 2;
+BA_ "SigSource" SG_ 956 RAW_3BC_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "GenMsgCycleTime" BO_ 963 1000;
+BA_ "MsgConfidence" BO_ 963 2;
+BA_ "MsgSource" BO_ 963 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 963 RAW_3C3_Data 2;
+BA_ "SigSource" SG_ 963 RAW_3C3_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "GenMsgCycleTime" BO_ 964 1000;
+BA_ "MsgConfidence" BO_ 964 2;
+BA_ "MsgSource" BO_ 964 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 964 RAW_3C4_Data 2;
+BA_ "SigSource" SG_ 964 RAW_3C4_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "GenMsgCycleTime" BO_ 966 1000;
+BA_ "MsgConfidence" BO_ 966 2;
+BA_ "MsgSource" BO_ 966 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 966 RAW_3C6_Data 2;
+BA_ "SigSource" SG_ 966 RAW_3C6_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "GenMsgCycleTime" BO_ 976 1000;
+BA_ "MsgConfidence" BO_ 976 2;
+BA_ "MsgSource" BO_ 976 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 976 RAW_3D0_Data 2;
+BA_ "SigSource" SG_ 976 RAW_3D0_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "GenMsgCycleTime" BO_ 992 962;
+BA_ "MsgConfidence" BO_ 992 2;
+BA_ "MsgSource" BO_ 992 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 992 RAW_3E0_Data 2;
+BA_ "SigSource" SG_ 992 RAW_3E0_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "MsgConfidence" BO_ 1000 2;
+BA_ "MsgSource" BO_ 1000 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 1000 RAW_3E8_Data 2;
+BA_ "SigSource" SG_ 1000 RAW_3E8_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "MsgConfidence" BO_ 1002 2;
+BA_ "MsgSource" BO_ 1002 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1002 RAW_3EA_Data 2;
+BA_ "SigSource" SG_ 1002 RAW_3EA_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "GenMsgCycleTime" BO_ 1003 1000;
+BA_ "MsgConfidence" BO_ 1003 2;
+BA_ "MsgSource" BO_ 1003 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 1003 RAW_3EB_Data 2;
+BA_ "SigSource" SG_ 1003 RAW_3EB_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "GenMsgCycleTime" BO_ 1006 1;
+BA_ "MsgConfidence" BO_ 1006 2;
+BA_ "MsgSource" BO_ 1006 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1006 RAW_3EE_Data 2;
+BA_ "SigSource" SG_ 1006 RAW_3EE_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "GenMsgCycleTime" BO_ 1007 1;
+BA_ "MsgConfidence" BO_ 1007 2;
+BA_ "MsgSource" BO_ 1007 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 1007 RAW_3EF_Data 2;
+BA_ "SigSource" SG_ 1007 RAW_3EF_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "MsgConfidence" BO_ 1010 2;
+BA_ "MsgSource" BO_ 1010 "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+BA_ "SigConfidence" SG_ 1010 RAW_3F2_Data 2;
+BA_ "SigSource" SG_ 1010 RAW_3F2_Data "MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus); MS candump 2020-06-02 19:18 KOES (friend 2011 F-350 truck bus, captures/2020-mscan src22GEX)";
+VAL_ 928 PowerModeCandidate 69 "run/KOES (HVAC enable value)" 17 "key off" 21 "transition" ;
+VAL_ 292 SeatClimate_B0 2 "off" 128 "mode A level 3" 64 "mode A level 2" 32 "mode A level 1" 16 "mode B level 3" 8 "mode B level 2" 4 "mode B level 1" ;
+VAL_ 292 SeatClimate_B1 2 "off" 128 "mode A level 3" 64 "mode A level 2" 32 "mode A level 1" 16 "mode B level 3" 8 "mode B level 2" 4 "mode B level 1" ;
+VAL_ 1034 MuxId 49408 "VIN 1-6" 49409 "VIN 7-12" 49410 "VIN 13-17" 49412 "unknown C104" 49424 "unknown C110" 49152 "clock" ;

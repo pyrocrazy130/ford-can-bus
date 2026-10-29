@@ -1,0 +1,387 @@
+VERSION "ford_2005_superduty_pcm_hscan"
+
+NS_ :
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	BA_DEF_DEF_
+
+BS_:
+
+BU_:
+
+BO_ 261 PCM05_105: 8 Vector__XXX
+ SG_ Unknown_B0_1 : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Unknown_B2_3 : 23|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Unknown_B4 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ ParkFlag_B5 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Const_B6 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B7 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 262 PCM05_106: 8 Vector__XXX
+ SG_ EngineState_B0 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B1 : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B2 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B3 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ PedalDecelState_B4 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B5 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B6 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ EngineLoad : 63|8@0+ (0.3921568627,0) [0|100] "%" Vector__XXX
+
+BO_ 512 PCM05_200: 8 Vector__XXX
+ SG_ DecelState_B0 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B1 : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ IdleState_B2 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B3 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ OffIdle_B4 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B5 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B6 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ BoostInput : 63|8@0+ (1,0) [0|255] "kPa" Vector__XXX
+
+BO_ 513 PCM05_EngineSpeed_VehSpeed: 8 Vector__XXX
+ SG_ Flag_B0_7 : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ EngineSpeed : 3|12@0+ (1,0) [0|4095] "rpm" Vector__XXX
+ SG_ EngineAccel : 23|16@0+ (1,-16384) [-16384|49151] "rpm/s" Vector__XXX
+ SG_ VehicleSpeed : 39|16@0+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+ SG_ AccelPedalPosition : 55|8@0+ (0.390625,0) [0|99.6] "%" Vector__XXX
+ SG_ Unknown_B7 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 530 PCM05_212: 8 Vector__XXX
+ SG_ PCM05_212_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 533 PCM05_215: 8 Vector__XXX
+ SG_ WheelSpeedA : 7|16@0+ (0.01,-101.06) [-101.06|554.29] "km/h" Vector__XXX
+ SG_ WheelSpeedB : 23|16@0+ (0.01,-101.06) [-101.06|554.29] "km/h" Vector__XXX
+ SG_ WheelSpeedC : 39|16@0+ (0.01,-101.06) [-101.06|554.29] "km/h" Vector__XXX
+ SG_ Unknown_B6_7 : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 535 PCM05_217: 8 Vector__XXX
+ SG_ Unknown_B0 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Const_B1_7 : 15|56@0+ (1,0) [0|72057594037927935] "" Vector__XXX
+
+BO_ 549 PCM05_225: 8 Vector__XXX
+ SG_ TowHaul_B0 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Const_B1 : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ EngineSpeed2 : 23|16@0+ (1,0) [0|65535] "rpm" Vector__XXX
+ SG_ OutputShaftSpeed : 39|16@0+ (1,0) [0|65535] "rpm" Vector__XXX
+ SG_ Const_B6 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ TransFluidTemp : 63|8@0+ (1,-40) [-40|215] "degC" Vector__XXX
+
+BO_ 560 PCM05_Trans_Gear: 8 Vector__XXX
+ SG_ GearCode : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ GearRatio : 8|9@0+ (0.01,0) [0|5.11] ":1" Vector__XXX
+ SG_ Const_B3_7 : 31|40@0+ (1,0) [0|1099511627775] "" Vector__XXX
+
+BO_ 1056 PCM05_420: 8 Vector__XXX
+ SG_ EngineCoolantTemp : 7|8@0+ (1,-40) [-40|215] "degC" Vector__XXX
+ SG_ DistanceCounter : 15|8@0+ (1,0) [0|255] "raw" Vector__XXX
+ SG_ FuelCounter : 23|8@0+ (1,0) [0|255] "raw" Vector__XXX
+ SG_ Prndl_B3 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ StatusB4 : 39|8@0+ (1,0) [0|255] "raw" Vector__XXX
+ SG_ Unknown_B5 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Const_B6 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B7 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1072 PCM05_430: 8 Vector__XXX
+ SG_ FuelLevelCandidate_B0 : 7|8@0+ (1,0) [0|255] "raw" Vector__XXX
+ SG_ Unknown_B1 : 15|8@0+ (1,0) [0|255] "raw" Vector__XXX
+ SG_ CrankFlag_B6 : 55|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Unknown_B6_lo : 54|7@0+ (1,0) [0|127] "" Vector__XXX
+ SG_ StartFlag_B7 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1088 PCM05_440: 8 Vector__XXX
+ SG_ Unknown_B0 : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Const_B1_7 : 15|56@0+ (1,0) [0|72057594037927935] "" Vector__XXX
+
+BO_ 1232 PCM05_4D0: 8 Vector__XXX
+ SG_ PCM05_4D0_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1279 PCM05_VIN: 8 Vector__XXX
+ SG_ VIN_ChunkIndex M : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ VIN_Chars_1_5 m48 : 15|40@0+ (1,0) [0|1099511627775] "" Vector__XXX
+ SG_ VIN_Chars_6_11 m49 : 15|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+ SG_ VIN_Chars_12_17 m50 : 15|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+
+CM_ "HS-CAN 500 kbit/s, 2005 F-350 6.0L PCM side (translator CAN0 input), OBD pins 6/14. Decoded from the 2026-10-24 KOEO, 2026-10-25 parked sync and 2026-10-25 drive captures (listen-only USB2CAN-X2; ground jumper never confirmed) with FORScan logging alongside, plus the CANBed V1.2 translator code. 14 broadcast IDs: 105 106 200 201 212 215 217 225 230 420 430 440 4D0 4FF (no 0x151 on this truck). FORScan diagnostics on 7E0/7E8 (PCM) and 7E1/7E9 (TCM) are not broadcast and not in this file; the confirmed DID formulas are in tools/signal-finder/sigfind/pid_table.py. The cluster/PATS/APCM live on SCP (J1850 PWM, pins 2/10), not here.";
+CM_ BO_ 261 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Periodic 16 ms. b0-1 and b2-3 always identical. b5 bit5 = Park.";
+CM_ SG_ 261 Unknown_B0_1 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] KOEO 69; idle ~550-716; crank peak 1607. Drive: R2 0.93 vs RPM, 0.90 vs VSS/OSS (k 0.77 rpm/count, +432), so speed/torque related but not a clean copy of anything logged. Unknown.";
+CM_ SG_ 261 Unknown_B2_3 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Always equal to b0-1 in all captures.";
+CM_ SG_ 261 Unknown_B4 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] C8 parked/cold; 76-200 on the drive (weak R2 0.34 vs EOT). Unknown.";
+CM_ SG_ 261 ParkFlag_B5 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] 0x27 in Park (all of the sync capture; drive from 1180-1188 s and from 1207 s to the end, matching 0x230 b0 = F0 / 0x420 b3 = 40), 0x07 otherwise. Bit 5 = Park.";
+CM_ SG_ 261 Const_B6 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Constant 0x6C.";
+CM_ SG_ 261 Unknown_B7 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] 80 in Park (sync), 86 while driving, 82/84 briefly around P/R/D changes. PRNDL-related; unconfirmed.";
+CM_ BO_ 262 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] Periodic 16 ms. b7 = engine load (PID 04); status bytes change at crank/run, with pedal and TCC/decel state.";
+CM_ SG_ 262 EngineState_B0 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] 0x62 key-on engine-off; 0x42 from crank (VPWR dip); 0x04 -> 0x03 -> 0x02 when the engine caught. 02-04 on the drive. One crank event only.";
+CM_ SG_ 262 Unknown_B1 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] Busy while running. Unknown.";
+CM_ SG_ 262 Unknown_B2 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] 01/02 with bit5 (0x20) set in some coast-down/stop stretches and through most of the parked idle (1218-1427 s). Unknown.";
+CM_ SG_ 262 Unknown_B3 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] 0 KOEO; 0x8D-0x94 most of the time running. Unknown.";
+CM_ SG_ 262 PedalDecelState_B4 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] Sync: 01 idle, 02 during blips. Drive (VSS>30): 01 in 149/163 samples with TCC slip and mostly APP=0; 02/03 with APP>0 and TCC locked (1291/1292). Pedal and TCC state are confounded here (TCC unlocks on closed pedal), so the meaning is not settled.";
+CM_ SG_ 262 Unknown_B5 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] Busy while running. Unknown.";
+CM_ SG_ 262 Unknown_B6 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] Always 0.";
+CM_ SG_ 262 EngineLoad "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] Engine load = raw x 100/255 %. Same raw as PCM DID 0x0004 in 1560/1753 replies (rest within +-3, timing), R2 0.9999 vs DID and 0.9961 vs FORScan LOAD.OBDII over 0-81 %. (Sync: 0 KOEO, ~90 % at cold idle and lower in free-revs, consistent with OBD load at idle.)";
+CM_ BO_ 512 "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] Periodic 8 ms. b7 = boost (translator -> cluster 0x407). b0/b2/b4 are idle/decel/TCC-related state bytes.";
+CM_ SG_ 512 DecelState_B0 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] Sync: 03 for ~90 ms at start, 01 at blip ends. Drive (VSS>30): 01 in 140/142 samples where TCC was slipping with APP mostly 0; 02/03 with TCC locked. Same confounding as 0x106 b4.";
+CM_ SG_ 512 Unknown_B1 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] 0 KOEO; busy running. Unknown.";
+CM_ SG_ 512 IdleState_B2 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] 01 KOEO and almost always while driving; 04 at idle; 03 in transitions/coast-downs.";
+CM_ SG_ 512 Unknown_B3 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] 157 KOEO; busy while running. Unknown.";
+CM_ SG_ 512 OffIdle_B4 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] Sync: 04 while RPM was above idle in blips. Drive (VSS>30): 04 in 1259/1321 TCC-locked samples, 03 mostly with TCC slip and APP=0.";
+CM_ SG_ 512 Unknown_B5 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] Busy while running. Unknown.";
+CM_ SG_ 512 Unknown_B6 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] Always 0.";
+CM_ SG_ 512 BoostInput "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] Boost, 1 kPa/count above ~93 kPa. Drive: MAP(DID 0x1440) = 1.006*b7 + 92.7 kPa, R2 0.9947 (n=1751, b7 0-96, MAP to 192 kPa); sync: 1.04*b7 + 94.0 (R2 0.965, small range). b7 = 0 when MAP is below ~92 kPa (MAP 87-92 at closed pedal). Not proven whether zero tracks baro or is a fixed ~93 kPa: baro was not logged and both runs were near the same altitude. Translator maps 0..254 -> cluster 0x407 256..735. Bo: boost.";
+CM_ BO_ 513 "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] Periodic 8 ms. Engine speed, vehicle speed and accelerator pedal (all matched to PCM DIDs), plus an engine-acceleration value.";
+CM_ SG_ 513 Flag_B0_7 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] b0 bit7. Sync: set 100.47-101.66 s during the crank. Drive: set 5 times for 0.5-7 s during closed-pedal coast-downs (APP 0, VSS 0-65 km/h, RPM ~680-870). Not simply a crank flag: maybe fuel cut / engine-not-driving. Unknown.";
+CM_ SG_ 513 EngineSpeed "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] b0 low nibble + b1, 12-bit BE, 1 rpm/count. vs PCM DID 0x1165/4: sync R2 0.99998 (0-2137 rpm), drive R2 1.0000 (631-2343 rpm). b0.7 is a separate flag, so do not read b0-1 as 16 bits. Translator used b0-1 x ~1.009.";
+CM_ SG_ 513 EngineAccel "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] b2-3 BE minus 0x4000. 0x3FFF KOEO; ~0 at steady idle; tracks smoothed d(RPM)/dt in the sync capture (R2 0.87, ~0.95 rpm/s per count). Scale approximate.";
+CM_ SG_ 513 VehicleSpeed "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] b4-5 BE x 0.01 km/h. vs PCM DID 0x11C1 (1/512 mph) and FORScan VSS: R2 1.0000, factor exactly 0.01, 0-139.5 km/h (drive). Translator scaled it by 0.00984 into the cluster 0.01 km/h field (~1.6 % low).";
+CM_ SG_ 513 AccelPedalPosition "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] Accelerator pedal = same raw as PCM DID 0x09D4 (1715/1752 replies identical, rest +-1-2, timing), i.e. raw x 100/256 %. R2 0.9983 vs FORScan APP (0-31 %, highway driving only; full pedal not seen). Sync: leads RPM by ~1.9 s in free-revs, as a pedal should.";
+CM_ SG_ 513 Unknown_B7 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] ~0x80; 0x72-0x8F on the drive. Possibly signed around 0x80. Unknown.";
+CM_ BO_ 530 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Periodic 24 ms. Constant 00 00 FF FE 00 00 00 00 in all captures, parked and driving.";
+CM_ SG_ 530 PCM05_212_Data "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 533 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] Periodic 24 ms. Three speed fields (wheel speeds?). b7 = 0x40 just after the engine started (sync).";
+CM_ SG_ 533 WheelSpeedA "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] Speed-like: (raw - 10106) x 0.01 km/h. Drive: R2 0.9999 vs VSS for each field (fit 0.0101/-101.5); 10106 (0x277A) when stopped and never below it, reverse reads positive (up to 10804), so no direction sign. The three fields differ by up to ~+-0.5 km/h (1-99 %ile), as wheel speeds would in turns. Possibly three wheel/axle speeds (which wheel is which unknown).";
+CM_ SG_ 533 WheelSpeedB "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] Speed-like: (raw - 10106) x 0.01 km/h. Drive: R2 0.9999 vs VSS for each field (fit 0.0101/-101.5); 10106 (0x277A) when stopped and never below it, reverse reads positive (up to 10804), so no direction sign. The three fields differ by up to ~+-0.5 km/h (1-99 %ile), as wheel speeds would in turns. Possibly three wheel/axle speeds (which wheel is which unknown).";
+CM_ SG_ 533 WheelSpeedC "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] Speed-like: (raw - 10106) x 0.01 km/h. Drive: R2 0.9999 vs VSS for each field (fit 0.0101/-101.5); 10106 (0x277A) when stopped and never below it, reverse reads positive (up to 10804), so no direction sign. The three fields differ by up to ~+-0.5 km/h (1-99 %ile), as wheel speeds would in turns. Possibly three wheel/axle speeds (which wheel is which unknown).";
+CM_ SG_ 533 Unknown_B6_7 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] 0 except b7 0x40 briefly after start.";
+CM_ BO_ 535 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Periodic 24 ms. Only b0 moves.";
+CM_ SG_ 535 Unknown_B0 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] 0 parked/cold; 0-0x19 on the drive, non-zero 17 % of the time, mostly while the torque converter was slipping (TCC ratio > 1.01) and at low speed. TCC slip related candidate; no linear fit to slip rpm (R2 0.03).";
+CM_ SG_ 535 Const_B1_7 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Always 0.";
+CM_ BO_ 549 "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] Periodic 8 ms. b0 tow/haul, b2-3 second RPM, b4-5 output shaft speed, b7 trans fluid temp.";
+CM_ SG_ 549 TowHaul_B0 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] 0x60 for 338.4-588.3 s only, matching the passenger-called tow/haul on/off at 341.3 / 594.4 s (12:22:02 / 12:26:15 PDT) within the few-second call latency. One on/off cycle.";
+CM_ SG_ 549 Const_B1 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] Constant 0xFF.";
+CM_ SG_ 549 EngineSpeed2 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] RPM-like (sync R2 0.997 vs DID 0x1165, ~40 rpm below 0x201 at idle). Use 0x201 for RPM.";
+CM_ SG_ 549 OutputShaftSpeed "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] Transmission output shaft speed, 1 rpm/count. vs TCM DID 0x11B5/4 and FORScan OSS: R2 1.0000, factor 1, offset 0 (0-3199 rpm). 0 in the parked sync capture.";
+CM_ SG_ 549 Const_B6 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] Always 0.";
+CM_ SG_ 549 TransFluidTemp "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)] TFT degC + 40, integer. Drive: b7-40 = 71/72/73 vs TCM DID 0x1674 (1/8 degF) 71.2-71.8 / 71.8-72.9 / 72.9-73.9 degC, a clean monotone state match, but only 3 values (weak). Sync: 61 cold = 21 degC, near ambient. BUT the sync free-revs showed jumps to 88/108 that decay in 2-3 s, which a fluid temperature cannot do; not seen on the drive. Translator feeds it to the cluster trans temp gauge.";
+CM_ BO_ 560 "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Periodic 32 ms. Transmission (5R110W): gear code and commanded gear ratio.";
+CM_ SG_ 560 GearCode "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Low nibble = TCM gear code (same codes as TCM DID 0x11B3/2 and FORScan GEAR: 1503/1503 state matches for codes 1/2/3/5/6; code 4 never seen on either). 0x10 = reverse (FORScan GEAR_INPT=Reverse in 631/652 samples), 0xF0 = Park/Neutral (all of the parked sync capture), 0xF1 transitional. Codes 5/6 are physical 4th/5th by ratio (b1-2: 1.00 / 0.71; locked RPM/OSS in code 6 = 0.712).";
+CM_ SG_ 560 GearRatio "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] b1 bit0 + b2 BE x 0.01 = gear ratio of the current gear: code 1 -> 0x0137 = 3.11, 2 -> 2.21, 3 -> 1.54, 5 -> 0.99, 6 -> 0.71 (5R110W published 3.11/2.22/1.55/1.00/0.71). Park shows 0x018F (3.99, placeholder?). Values in between during shifts. Defined as 9 bits (b1 bit0 + b2) because b1 was only ever 00/01; widen it if b1 bits 1-7 ever move.";
+CM_ SG_ 560 Const_B3_7 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Always 0.";
+CM_ BO_ 1056 "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)] Periodic ~96 ms. b0 ECT, b1 distance counter, b2 fuel counter, b3 PRNDL, b4 = 0x40.";
+CM_ SG_ 1056 EngineCoolantTemp "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)] degC + 40. Sync (cold): R2 0.995 vs FORScan ECT, endpoints exact vs PCM DID 0x1139 over 19-39 degC. Drive: 91-95 degC hot (ECT not polled on the drive, so the hot end has no direct reference; plausible thermostat range, EOT 79-89 degC at the same time). Translator sends raw+16 to cluster 0x156 b0.";
+CM_ SG_ 1056 DistanceCounter "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)] Rolling 8-bit counter of distance: 0.2 m/count (5000 counts/km). Drive: 10-s count rate vs VSS R2 1.000, 1.3856 counts/s per km/h; 224311 counts over 44.95 km by integrating 0x201 speed = 0.2004 m/count. Constant 0 while parked (sync). Cluster odometer/trip feed candidate.";
+CM_ SG_ 1056 FuelCounter "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)] Rolling 8-bit counter while running (0 KOEO): ~6 counts/s hot idle, ~46/s at highway speed. 10-s rate vs RPM x LOAD (fuel-flow proxy) R2 0.994. Probably fuel used for the cluster MPG/DTE; volume per count unknown (no fuel-rate PID).";
+CM_ SG_ 1056 Prndl_B3 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)] 0x40 parked (sync, end of drive), 0x10 driving, 0x01 while 0x230 b0 = 0x10 (reverse), 0x80 for ~0.3 s between them. Selector/PRNDL state.";
+CM_ SG_ 1056 StatusB4 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)] Constant 0x40 in every capture. When != 0x40 the translator sends cluster 0x420 = 00 00 00 00 00 00 73 FF. Meaning of other values unknown.";
+CM_ SG_ 1056 Unknown_B5 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)] 0 parked; toggles 00/40 roughly every 2.3 s / 10 s on the drive. Unknown.";
+CM_ SG_ 1056 Const_B6 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)] Always 0.";
+CM_ SG_ 1056 Unknown_B7 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)] 0xFF in the parked sync capture, 0x07 for the whole drive. Unknown.";
+CM_ BO_ 1072 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] Periodic 30 ms. b0 fuel-level candidate, b1 unknown, b6.7 crank flag.";
+CM_ SG_ 1072 FuelLevelCandidate_B0 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] 0x42 (66) constant in the parked sync capture; on the drive falls smoothly 214 -> 175 over ~30 min / 45 km (200-s medians 214,210,204,200,195,192,190,189,176,175). Fits a fuel level (~15 % of range for ~45 km), but the sync value is very different (other tank? different fill?). No fuel-level PID was logged.";
+CM_ SG_ 1072 Unknown_B1 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] NOT battery voltage (sync: R2 0.39 vs VPWR; flat while VPWR fell 2 V at crank; jumped 90 -> 107 when the engine fired). Drive: 73-255, median ~172-180 with no relation to RPM (R2 0.09) or EOT (0.005). Unknown.";
+CM_ SG_ 1072 CrankFlag_B6 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] b6 = 0x40 normally, 0xC0 during the one crank (sync).";
+CM_ SG_ 1072 Unknown_B6_lo "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] Rest of b6, always 0x40.";
+CM_ SG_ 1072 StartFlag_B7 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)] 0x0C for ~1 s right after the engine caught (sync), else 0.";
+CM_ BO_ 1088 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Periodic ~99 ms. Only b0 moves.";
+CM_ SG_ 1088 Unknown_B0 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] 0x10 in short stretches (1-14 s) during closed-pedal slow-downs and stops on side streets (e.g. 704, 902, 998, 1125 s), else 0. Brake-switch candidate; brake was not logged.";
+CM_ SG_ 1088 Const_B1_7 "[conf=medium] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Always 0.";
+CM_ BO_ 1232 "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Periodic 1 s. Constant 3C 44 03 8C 00 00 00 00 in all captures (maybe a calibration/part ID; unknown).";
+CM_ SG_ 1232 PCM05_4D0_Data "[conf=low] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1279 "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] VIN in three ASCII chunks, one frame ~1 s apart, cycling 0,1,2. b0 = chunk index ASCII 0/1/2. Chunk 0 = 30 31 46 54 57 58 00 00 (1FTWX, 5 chars), chunk 1 = 31 33 31 50 32 35 45 00 (******), chunk 2 = 32 42 33 34 38 30 30 00 (******). Concatenated: 1FTWX************.";
+CM_ SG_ 1279 VIN_ChunkIndex "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] ASCII '0'/'1'/'2'.";
+CM_ SG_ 1279 VIN_Chars_1_5 "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] ASCII, 5 chars then 00 00.";
+CM_ SG_ 1279 VIN_Chars_6_11 "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] ASCII, 6 chars, b7 = 00.";
+CM_ SG_ 1279 VIN_Chars_12_17 "[conf=high] [src=2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)] ASCII, 6 chars, b7 = 00.";
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ BO_ "MsgConfidence" ENUM "high","medium","low";
+BA_DEF_ BO_ "MsgSource" STRING ;
+BA_DEF_ SG_ "SigConfidence" ENUM "high","medium","low";
+BA_DEF_ SG_ "SigSource" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "Baudrate" INT 0 1000000;
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "MsgConfidence" "low";
+BA_DEF_DEF_ "MsgSource" "";
+BA_DEF_DEF_ "SigConfidence" "low";
+BA_DEF_DEF_ "SigSource" "";
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "Baudrate" 500000;
+BA_ "BusType" "CAN";
+BA_ "Baudrate" 500000;
+BA_ "GenMsgCycleTime" BO_ 261 16;
+BA_ "MsgConfidence" BO_ 261 2;
+BA_ "MsgSource" BO_ 261 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 261 Unknown_B0_1 2;
+BA_ "SigSource" SG_ 261 Unknown_B0_1 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 261 Unknown_B2_3 1;
+BA_ "SigSource" SG_ 261 Unknown_B2_3 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 261 Unknown_B4 2;
+BA_ "SigSource" SG_ 261 Unknown_B4 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 261 ParkFlag_B5 1;
+BA_ "SigSource" SG_ 261 ParkFlag_B5 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 261 Const_B6 1;
+BA_ "SigSource" SG_ 261 Const_B6 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 261 Unknown_B7 2;
+BA_ "SigSource" SG_ 261 Unknown_B7 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "GenMsgCycleTime" BO_ 262 16;
+BA_ "MsgConfidence" BO_ 262 1;
+BA_ "MsgSource" BO_ 262 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 262 EngineState_B0 2;
+BA_ "SigSource" SG_ 262 EngineState_B0 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 262 Unknown_B1 2;
+BA_ "SigSource" SG_ 262 Unknown_B1 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 262 Unknown_B2 2;
+BA_ "SigSource" SG_ 262 Unknown_B2 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 262 Unknown_B3 2;
+BA_ "SigSource" SG_ 262 Unknown_B3 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 262 PedalDecelState_B4 2;
+BA_ "SigSource" SG_ 262 PedalDecelState_B4 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 262 Unknown_B5 2;
+BA_ "SigSource" SG_ 262 Unknown_B5 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 262 Unknown_B6 1;
+BA_ "SigSource" SG_ 262 Unknown_B6 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 262 EngineLoad 0;
+BA_ "SigSource" SG_ 262 EngineLoad "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "GenMsgCycleTime" BO_ 512 8;
+BA_ "MsgConfidence" BO_ 512 0;
+BA_ "MsgSource" BO_ 512 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 512 DecelState_B0 2;
+BA_ "SigSource" SG_ 512 DecelState_B0 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 512 Unknown_B1 2;
+BA_ "SigSource" SG_ 512 Unknown_B1 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 512 IdleState_B2 2;
+BA_ "SigSource" SG_ 512 IdleState_B2 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 512 Unknown_B3 2;
+BA_ "SigSource" SG_ 512 Unknown_B3 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 512 OffIdle_B4 2;
+BA_ "SigSource" SG_ 512 OffIdle_B4 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 512 Unknown_B5 2;
+BA_ "SigSource" SG_ 512 Unknown_B5 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 512 Unknown_B6 1;
+BA_ "SigSource" SG_ 512 Unknown_B6 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 512 BoostInput 0;
+BA_ "SigSource" SG_ 512 BoostInput "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "GenMsgCycleTime" BO_ 513 8;
+BA_ "MsgConfidence" BO_ 513 0;
+BA_ "MsgSource" BO_ 513 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 513 Flag_B0_7 2;
+BA_ "SigSource" SG_ 513 Flag_B0_7 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 513 EngineSpeed 0;
+BA_ "SigSource" SG_ 513 EngineSpeed "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 513 EngineAccel 2;
+BA_ "SigSource" SG_ 513 EngineAccel "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 513 VehicleSpeed 0;
+BA_ "SigSource" SG_ 513 VehicleSpeed "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 513 AccelPedalPosition 0;
+BA_ "SigSource" SG_ 513 AccelPedalPosition "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 513 Unknown_B7 2;
+BA_ "SigSource" SG_ 513 Unknown_B7 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "GenMsgCycleTime" BO_ 530 24;
+BA_ "MsgConfidence" BO_ 530 2;
+BA_ "MsgSource" BO_ 530 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 530 PCM05_212_Data 2;
+BA_ "SigSource" SG_ 530 PCM05_212_Data "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "GenMsgCycleTime" BO_ 533 24;
+BA_ "MsgConfidence" BO_ 533 1;
+BA_ "MsgSource" BO_ 533 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 533 WheelSpeedA 1;
+BA_ "SigSource" SG_ 533 WheelSpeedA "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 533 WheelSpeedB 1;
+BA_ "SigSource" SG_ 533 WheelSpeedB "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 533 WheelSpeedC 1;
+BA_ "SigSource" SG_ 533 WheelSpeedC "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 533 Unknown_B6_7 2;
+BA_ "SigSource" SG_ 533 Unknown_B6_7 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "GenMsgCycleTime" BO_ 535 24;
+BA_ "MsgConfidence" BO_ 535 2;
+BA_ "MsgSource" BO_ 535 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 535 Unknown_B0 2;
+BA_ "SigSource" SG_ 535 Unknown_B0 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 535 Const_B1_7 1;
+BA_ "SigSource" SG_ 535 Const_B1_7 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "GenMsgCycleTime" BO_ 549 8;
+BA_ "MsgConfidence" BO_ 549 0;
+BA_ "MsgSource" BO_ 549 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 549 TowHaul_B0 1;
+BA_ "SigSource" SG_ 549 TowHaul_B0 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 549 Const_B1 1;
+BA_ "SigSource" SG_ 549 Const_B1 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 549 EngineSpeed2 1;
+BA_ "SigSource" SG_ 549 EngineSpeed2 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 549 OutputShaftSpeed 0;
+BA_ "SigSource" SG_ 549 OutputShaftSpeed "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 549 Const_B6 1;
+BA_ "SigSource" SG_ 549 Const_B6 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 549 TransFluidTemp 1;
+BA_ "SigSource" SG_ 549 TransFluidTemp "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); translator code (CANBed V1.2 dump)";
+BA_ "GenMsgCycleTime" BO_ 560 32;
+BA_ "MsgConfidence" BO_ 560 0;
+BA_ "MsgSource" BO_ 560 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 560 GearCode 0;
+BA_ "SigSource" SG_ 560 GearCode "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 560 GearRatio 0;
+BA_ "SigSource" SG_ 560 GearRatio "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 560 Const_B3_7 1;
+BA_ "SigSource" SG_ 560 Const_B3_7 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "GenMsgCycleTime" BO_ 1056 96;
+BA_ "MsgConfidence" BO_ 1056 0;
+BA_ "MsgSource" BO_ 1056 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 1056 EngineCoolantTemp 0;
+BA_ "SigSource" SG_ 1056 EngineCoolantTemp "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 1056 DistanceCounter 0;
+BA_ "SigSource" SG_ 1056 DistanceCounter "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 1056 FuelCounter 1;
+BA_ "SigSource" SG_ 1056 FuelCounter "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 1056 Prndl_B3 1;
+BA_ "SigSource" SG_ 1056 Prndl_B3 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 1056 StatusB4 1;
+BA_ "SigSource" SG_ 1056 StatusB4 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 1056 Unknown_B5 2;
+BA_ "SigSource" SG_ 1056 Unknown_B5 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 1056 Const_B6 1;
+BA_ "SigSource" SG_ 1056 Const_B6 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)";
+BA_ "SigConfidence" SG_ 1056 Unknown_B7 2;
+BA_ "SigSource" SG_ 1056 Unknown_B7 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log); translator code (CANBed V1.2 dump)";
+BA_ "GenMsgCycleTime" BO_ 1072 30;
+BA_ "MsgConfidence" BO_ 1072 2;
+BA_ "MsgSource" BO_ 1072 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 1072 FuelLevelCandidate_B0 2;
+BA_ "SigSource" SG_ 1072 FuelLevelCandidate_B0 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 1072 Unknown_B1 2;
+BA_ "SigSource" SG_ 1072 Unknown_B1 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 1072 CrankFlag_B6 2;
+BA_ "SigSource" SG_ 1072 CrankFlag_B6 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 1072 Unknown_B6_lo 2;
+BA_ "SigSource" SG_ 1072 Unknown_B6_lo "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "SigConfidence" SG_ 1072 StartFlag_B7 2;
+BA_ "SigSource" SG_ 1072 StartFlag_B7 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs)";
+BA_ "GenMsgCycleTime" BO_ 1088 99;
+BA_ "MsgConfidence" BO_ 1088 2;
+BA_ "MsgSource" BO_ 1088 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 1088 Unknown_B0 2;
+BA_ "SigSource" SG_ 1088 Unknown_B0 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 1088 Const_B1_7 1;
+BA_ "SigSource" SG_ 1088 Const_B1_7 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "GenMsgCycleTime" BO_ 1232 1001;
+BA_ "MsgConfidence" BO_ 1232 2;
+BA_ "MsgSource" BO_ 1232 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 1232 PCM05_4D0_Data 2;
+BA_ "SigSource" SG_ 1232 PCM05_4D0_Data "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "GenMsgCycleTime" BO_ 1279 1057;
+BA_ "MsgConfidence" BO_ 1279 0;
+BA_ "MsgSource" BO_ 1279 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 1279 VIN_ChunkIndex 0;
+BA_ "SigSource" SG_ 1279 VIN_ChunkIndex "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 1279 VIN_Chars_1_5 0;
+BA_ "SigSource" SG_ 1279 VIN_Chars_1_5 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 1279 VIN_Chars_6_11 0;
+BA_ "SigSource" SG_ 1279 VIN_Chars_6_11 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+BA_ "SigConfidence" SG_ 1279 VIN_Chars_12_17 0;
+BA_ "SigSource" SG_ 1279 VIN_Chars_12_17 "2005 F-350 HS-CAN drive capture 2026-10-25 (captures/2026-2005/2026-10-25_drive_can1.log + FORScan CSV, 7E8 PCM / 7E9 TCM DIDs); 2005 F-350 HS-CAN sync capture 2026-10-25 (captures/2026-2005/2026-10-25_sync_can0.log + FORScan CSV/7E8 DIDs); 2005 F-350 HS-CAN KOEO capture 2026-10-24 (captures/2026-2005/2026-10-24_keyon_noengine_can0.log)";
+VAL_ 261 ParkFlag_B5 7 "not in Park" 39 "Park" ;
+VAL_ 261 Unknown_B7 128 "parked (cold)" 130 "?" 132 "?" 134 "driving" ;
+VAL_ 262 EngineState_B0 98 "KOEO" 66 "cranking" 4 "run (start)" 3 "run (start)" 2 "running" ;
+VAL_ 262 PedalDecelState_B4 1 "pedal off / TCC slipping" 2 "pedal on" 3 "pedal on (higher load?)" ;
+VAL_ 512 DecelState_B0 1 "closed-pedal decel / TCC slip" 2 "normal" 3 "normal (higher load?)" ;
+VAL_ 512 IdleState_B2 1 "off idle / driving" 3 "transition" 4 "idle" ;
+VAL_ 512 OffIdle_B4 3 "idle / closed-pedal" 4 "off idle" ;
+VAL_ 513 Flag_B0_7 0 "no" 1 "set" ;
+VAL_ 549 TowHaul_B0 0 "off" 96 "tow/haul on" ;
+VAL_ 560 GearCode 1 "1st" 2 "2nd" 3 "3rd" 5 "4th (TCM code 5)" 6 "5th (TCM code 6)" 16 "Reverse" 240 "Park/Neutral" 241 "P/R/N transition" ;
+VAL_ 1056 Prndl_B3 16 "Drive" 1 "Reverse" 64 "Park" 128 "Neutral/transition" ;
+VAL_ 1056 StatusB4 64 "normal (no cluster 0x420 sent)" ;
+VAL_ 1056 Unknown_B5 0 "?" 64 "?" ;
+VAL_ 1072 CrankFlag_B6 0 "no" 1 "cranking?" ;
+VAL_ 1072 StartFlag_B7 0 "normal" 12 "just started?" ;
+VAL_ 1088 Unknown_B0 0 "off" 16 "on" ;
+VAL_ 1279 VIN_ChunkIndex 48 "chars 1-5" 49 "chars 6-11" 50 "chars 12-17" ;

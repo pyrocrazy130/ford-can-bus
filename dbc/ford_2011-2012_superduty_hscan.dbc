@@ -1,0 +1,970 @@
+VERSION "ford_2011-2012_superduty_hscan"
+
+NS_ :
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	BA_DEF_DEF_
+
+BS_:
+
+BU_:
+
+BO_ 65 RAW_041: 8 Vector__XXX
+ SG_ RAW_041_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 71 RAW_047: 8 Vector__XXX
+ SG_ RAW_047_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 116 RAW_074: 8 Vector__XXX
+ SG_ RAW_074_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 124 RAW_07C: 8 Vector__XXX
+ SG_ RAW_07C_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 131 RAW_083: 8 Vector__XXX
+ SG_ RAW_083_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 132 RAW_084: 8 Vector__XXX
+ SG_ RAW_084_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 145 RAW_091: 8 Vector__XXX
+ SG_ RAW_091_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 146 RAW_092: 8 Vector__XXX
+ SG_ RAW_092_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 258 RAW_102: 8 Vector__XXX
+ SG_ RAW_102_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 259 RAW_103: 8 Vector__XXX
+ SG_ RAW_103_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 266 RAW_10A: 8 Vector__XXX
+ SG_ RAW_10A_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 267 RAW_10B: 8 Vector__XXX
+ SG_ RAW_10B_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 336 RAW_150: 8 Vector__XXX
+ SG_ RAW_150_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 337 RAW_151: 8 Vector__XXX
+ SG_ RAW_151_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 338 RAW_152: 8 Vector__XXX
+ SG_ RAW_152_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 339 RAW_153: 8 Vector__XXX
+ SG_ RAW_153_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 340 RAW_154: 8 Vector__XXX
+ SG_ RAW_154_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 341 RAW_155: 8 Vector__XXX
+ SG_ RAW_155_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 342 PCM_EngineTemps: 8 Vector__XXX
+ SG_ EngineCoolantTemp : 7|8@0+ (1,-60) [-60|195] "degC" Vector__XXX
+ SG_ PossibleOilTemp : 15|8@0+ (1,-60) [-60|195] "degC" Vector__XXX
+ SG_ Unknown_B4 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B5 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 343 RAW_157: 8 Vector__XXX
+ SG_ RAW_157_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 345 RAW_159: 8 Vector__XXX
+ SG_ RAW_159_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 346 RAW_15A: 8 Vector__XXX
+ SG_ RAW_15A_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 348 RAW_15C: 8 Vector__XXX
+ SG_ RAW_15C_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 349 RAW_15D: 8 Vector__XXX
+ SG_ RAW_15D_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 352 RAW_160: 8 Vector__XXX
+ SG_ RAW_160_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 353 RAW_161: 8 Vector__XXX
+ SG_ RAW_161_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 354 RAW_162: 8 Vector__XXX
+ SG_ RAW_162_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 355 RAW_163: 8 Vector__XXX
+ SG_ RAW_163_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 357 RAW_165: 8 Vector__XXX
+ SG_ RAW_165_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 512 RAW_200: 8 Vector__XXX
+ SG_ RAW_200_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 513 PCM_EngineSpeed_VehSpeed: 8 Vector__XXX
+ SG_ EngineSpeed : 7|16@0+ (0.25,0) [0|16383.75] "rpm" Vector__XXX
+ SG_ VehicleSpeed : 23|16@0+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+ SG_ Unknown_B4_5 : 39|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Unknown_B6 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B7 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 529 RAW_211: 8 Vector__XXX
+ SG_ RAW_211_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 533 RAW_215: 8 Vector__XXX
+ SG_ RAW_215_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 534 RAW_216: 8 Vector__XXX
+ SG_ RAW_216_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 560 PCM_Trans_Gear: 8 Vector__XXX
+ SG_ GearEngaged : 7|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ ShiftState : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Unknown_B1 : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B2 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ TransFluidTemp : 31|8@0+ (1,-60) [-60|195] "degC" Vector__XXX
+ SG_ Unknown_B4 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ GearRatio : 47|16@0+ (0.001,0) [0|65.535] "ratio" Vector__XXX
+ SG_ Unknown_B7 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 561 RAW_231: 8 Vector__XXX
+ SG_ RAW_231_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 562 RAW_232: 8 Vector__XXX
+ SG_ RAW_232_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 576 RAW_240: 8 Vector__XXX
+ SG_ RAW_240_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 608 RAW_260: 8 Vector__XXX
+ SG_ RAW_260_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 832 RAW_340: 8 Vector__XXX
+ SG_ RAW_340_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 848 RAW_350: 8 Vector__XXX
+ SG_ RAW_350_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 906 RAW_38A: 8 Vector__XXX
+ SG_ RAW_38A_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 909 RAW_38D: 8 Vector__XXX
+ SG_ RAW_38D_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 936 RAW_3A8: 8 Vector__XXX
+ SG_ RAW_3A8_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 937 RAW_3A9: 8 Vector__XXX
+ SG_ RAW_3A9_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 942 HS_3AE: 8 Vector__XXX
+ SG_ HS_3AE_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 947 HS_3B3: 8 Vector__XXX
+ SG_ Unknown_B0_1 : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ SelectorCandidate : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B3 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B5 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B7 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 948 RAW_3B4: 8 Vector__XXX
+ SG_ RAW_3B4_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 949 RAW_3B5: 8 Vector__XXX
+ SG_ RAW_3B5_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 955 RAW_3BB: 8 Vector__XXX
+ SG_ RAW_3BB_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 963 RAW_3C3: 8 Vector__XXX
+ SG_ RAW_3C3_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 967 RAW_3C7: 8 Vector__XXX
+ SG_ RAW_3C7_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 992 RAW_3E0: 8 Vector__XXX
+ SG_ RAW_3E0_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 993 RAW_3E1: 8 Vector__XXX
+ SG_ RAW_3E1_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 995 RAW_3E3: 8 Vector__XXX
+ SG_ RAW_3E3_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 998 RAW_3E6: 8 Vector__XXX
+ SG_ RAW_3E6_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 999 RAW_3E7: 8 Vector__XXX
+ SG_ RAW_3E7_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1004 RAW_3EC: 8 Vector__XXX
+ SG_ RAW_3EC_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1031 PCM_Boost: 8 Vector__XXX
+ SG_ BoostRaw : 7|16@0+ (1,0) [0|65535] "raw" Vector__XXX
+ SG_ Unknown_B2 : 23|8@0+ (1,0) [0|255] "raw" Vector__XXX
+
+BO_ 1034 VIN_Clock_Mux: 8 Vector__XXX
+ SG_ MuxId M : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ VIN_Chars_1_6 m49408 : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+ SG_ VIN_Chars_7_12 m49409 : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+ SG_ VIN_Chars_13_17 m49410 : 23|40@0+ (1,0) [0|1099511627775] "" Vector__XXX
+ SG_ C104_Data m49412 : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+ SG_ C110_Data m49424 : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+ SG_ RealTimeClock m49152 : 31|32@0+ (0.1,0) [0|429496729.5] "s" Vector__XXX
+
+BO_ 1036 RAW_40C: 8 Vector__XXX
+ SG_ RAW_40C_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1045 ABS_VehicleSpeed: 8 Vector__XXX
+ SG_ VehicleSpeed : 7|16@0+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+ SG_ Unknown_B2 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B5 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B6 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1046 RAW_416: 8 Vector__XXX
+ SG_ RAW_416_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1047 RAW_417: 8 Vector__XXX
+ SG_ RAW_417_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1056 PCM_420: 8 Vector__XXX
+ SG_ Unknown_B6 : 55|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Unknown_B7 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1058 RAW_422: 8 Vector__XXX
+ SG_ RAW_422_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1067 RAW_42B: 8 Vector__XXX
+ SG_ RAW_42B_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1068 HS_42C: 8 Vector__XXX
+ SG_ HS_42C_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1072 IPC_Odometer_Candidate: 8 Vector__XXX
+ SG_ Unknown_B0_2 : 7|24@0+ (1,0) [0|16777215] "" Vector__XXX
+ SG_ OdometerCandidate : 31|24@0+ (1,0) [0|16777215] "km or mi?" Vector__XXX
+ SG_ Unknown_B6_7 : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1075 RAW_433: 8 Vector__XXX
+ SG_ RAW_433_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1093 RAW_445: 8 Vector__XXX
+ SG_ RAW_445_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1108 RAW_454: 8 Vector__XXX
+ SG_ RAW_454_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1109 RAW_455: 8 Vector__XXX
+ SG_ RAW_455_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1186 RAW_4A2: 8 Vector__XXX
+ SG_ RAW_4A2_Data : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1409 NM_KeepAlive_581: 8 Vector__XXX
+ SG_ NodeId : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Status : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Filler : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+
+BO_ 1425 NM_KeepAlive_591: 8 Vector__XXX
+ SG_ NodeId : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Status : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Filler : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+
+BO_ 1440 NM_KeepAlive_5A0: 8 Vector__XXX
+ SG_ NodeId : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Status : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Filler : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+
+BO_ 1459 NM_KeepAlive_5B3: 8 Vector__XXX
+ SG_ NodeId : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Status : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Filler : 23|48@0+ (1,0) [0|281474976710655] "" Vector__XXX
+
+CM_ "HS-CAN 500 kbit/s, 2011-2012 Super Duty cluster side. Decoded from a friend 2011 F-350 6.7L (VIN 1FT8W3BT4BE******), drive log 2021-06-08. Bo cluster/electronics are from a 2012 F-350 Lariat: assumed same HS layout as the 2011 (unverified). Byte numbers b0..b7, Ford big-endian.";
+CM_ BO_ 513 "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Engine speed + vehicle speed, 10 ms. Translator writes this to the cluster (cluster gauges RPM and speedo).";
+CM_ SG_ 513 EngineSpeed "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] b0-1 /4. Idle 550-640 rpm, max 1199 on the drive. Low 3 bits always 011 (resolution 8 counts = 2 rpm). Translator sets low nibble to 3.";
+CM_ SG_ 513 VehicleSpeed "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] b2-3 0.01 km/h. Max 24.6 km/h on the drive. Checked vs gear ratio: speed/rpm per gear fits 3.55 axle and ~32in tyres (assumed), 0.01 mph does not fit. Same value as 0x415 b0-1.";
+CM_ SG_ 513 Unknown_B4_5 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Load-like value (r=0.76 with RPM), 0 at idle, b5 only 00/40/80/C0. Translator sends 0.";
+CM_ SG_ 513 Unknown_B6 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Constant 0x18 on the drive. Translator sends 0x00.";
+CM_ SG_ 513 Unknown_B7 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Constant 0x00.";
+CM_ BO_ 560 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Transmission (6R140): gear, trans temp, current ratio. ~16 ms. Translator writes 22 50 00 g 00 13 88 00.";
+CM_ SG_ 560 GearEngaged "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] b0 high nibble. Seen 0, E (reverse while backing out), 1, 2, 3; matches b5-6 ratios. 4-6 not observed.";
+CM_ SG_ 560 ShiftState "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] b0 low nibble: 3 for ~1.3 s at each upshift/downshift, else 2.";
+CM_ SG_ 560 Unknown_B1 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Constant 0x60 on the drive. Translator sends 0x50.";
+CM_ SG_ 560 Unknown_B2 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] 00 at start, 10 in reverse, 30 in forward gears. Translator sends 0x00.";
+CM_ SG_ 560 TransFluidTemp "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] b3. Identity as trans temp medium (translator feeds it from the 2005 0x225 b7 via a curve; Bo remembers translating trans temp). Offset -60 is a GUESS (raw 0x8B-0x8C on a warm short drive = 79 degC/174 degF). Alternative -40.";
+CM_ SG_ 560 Unknown_B4 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Constant 0x00.";
+CM_ SG_ 560 GearRatio "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] b5-6 x0.001: 3.97/2.32/1.52 in 1/2/3, ~3.13 reverse, 5.000 at P/N. Exactly the 6R140 ratios.";
+CM_ SG_ 560 Unknown_B7 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] 0x40 during reverse, else 0x00.";
+CM_ BO_ 342 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Engine temperatures, 100 ms. Translator writes t 7E 00 00 03 0C 00 00 with t = 2005 0x420 b0 + 16.";
+CM_ SG_ 342 EngineCoolantTemp "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] b0 = ECT: identity medium (Bo translated ECT here). Offset -60 is LOW confidence: raw 0x93-0x95 -> 87-89 degC/189-192 degF warm; with -40 it would be 225-228 degF. Truck was warm, no warm-up in log.";
+CM_ SG_ 342 PossibleOilTemp "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] b1 tracks b0 within 1-2 counts (0x92-0x95): maybe engine oil temp. Offset guess as b0. Translator sends static 0x7E.";
+CM_ SG_ 342 Unknown_B4 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Constant 0x03 (translator 0x03).";
+CM_ SG_ 342 Unknown_B5 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] 0x0C at standstill around start/shift into drive, else 0x00. Translator sends static 0x0C.";
+CM_ BO_ 1031 "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); Bo 2026-10-22] Boost gauge (confirmed by Bo, who translated boost into 0x407). 20 ms. Translator: v=map(2005 0x200 b7,0..254,256..735) into b0-1, b2=0.";
+CM_ SG_ 1031 BoostRaw "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); Bo 2026-10-22] b0-1, scaling UNPROVEN: 300 at idle, 318 max on a light sub-1200 rpm drive, r=+0.85 with RPM. Hypothesis 1/3 kPa absolute (300=100 kPa atmospheric, 318=106 kPa=0.9 psi). Needs a reading with a known boost (scan tool) to confirm; left raw on purpose.";
+CM_ SG_ 1031 Unknown_B2 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); Bo 2026-10-22] 0x35-0x6D, moves opposite to load (r=-0.89 with RPM). Unknown. Translator sends 0.";
+CM_ BO_ 1045 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Second speed source, 50 ms (likely ABS, sender unverified). Translator sends static 00 00 00 00 00 80 80 00, i.e. speed 0: possible odometer/chime impact.";
+CM_ SG_ 1045 VehicleSpeed "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] b0-1 0.01 km/h, median +0.04 km/h vs 0x201 b2-3.";
+CM_ SG_ 1045 Unknown_B2 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Constant 0x0C (translator 0x00).";
+CM_ SG_ 1045 Unknown_B5 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] 0x7E-0x86 (translator 0x80).";
+CM_ SG_ 1045 Unknown_B6 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] 0x7E then 0x80 (translator 0x80).";
+CM_ BO_ 1056 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Format 00 00 00 00 00 00 XX FF, 100 ms. Translator sends 00..00 73 FF only when the 2005 0x420 b4 != 0x40.";
+CM_ SG_ 1056 Unknown_B6 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] 0x5E-0x90, dips on lift-off, not temperature-like. Translator static 0x73.";
+CM_ SG_ 1056 Unknown_B7 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Constant 0xFF.";
+CM_ BO_ 1072 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Odometer candidate, 20 ms. Not sent by the translator. Sender unknown (cluster or PCM).";
+CM_ SG_ 1072 Unknown_B0_2 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Constant 00 01 00.";
+CM_ SG_ 1072 OdometerCandidate "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] b3-5 = 217206 -> 217207 at t=49.7 s after 0.08 km driven; 0.75 km more without another step. Consistent with whole km or mi. Confirm against an odometer reading.";
+CM_ SG_ 1072 Unknown_B6_7 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] 09D0 then 0990.";
+CM_ BO_ 1034 "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Multiplexed by b0-1 (C1xx = VIN parts, C000 = clock). 200 ms per frame. Same VIN 1FT8W3BT4BE****** (friend 2011 F-350 6.7L) appears on HS and MS.";
+CM_ SG_ 1034 MuxId "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] b0-1 selects the payload.";
+CM_ SG_ 1034 VIN_Chars_1_6 "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] ASCII, e.g. 1FT8W3.";
+CM_ SG_ 1034 VIN_Chars_7_12 "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] ASCII, e.g. BT4BEB.";
+CM_ SG_ 1034 VIN_Chars_13_17 "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] ASCII, e.g. 40326; b7 = 00.";
+CM_ SG_ 1034 C104_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Constant 01 63 0A 46 11 01. Unknown.";
+CM_ SG_ 1034 C110_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] Constant 09 08 22 45 00 00. Unknown.";
+CM_ SG_ 1034 RealTimeClock "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)] b3-6 x0.1 s, +12 counts per 1.2 s. Epoch back-calculates to ~2010-10-16 in both the 2020 MS log and the 2021 HS log (within 32 min), so a real-time clock, NOT the odometer.";
+CM_ BO_ 947 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] 41 44 [b2] 12 00 05 00 [b7], 500 ms. Translator sends static 41 44 0D 60 00 05 00 3C. MS-CAN 0x3B3 has a different layout.";
+CM_ SG_ 947 Unknown_B0_1 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Constant 0x4144.";
+CM_ SG_ 947 SelectorCandidate "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Changes exactly with selector moves: 0D before shift, 01 in reverse, 0E briefly, 07 driving. Possibly PRNDL. Translator fixed 0x0D.";
+CM_ SG_ 947 Unknown_B3 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Constant 0x12 (translator 0x60 - mismatch).";
+CM_ SG_ 947 Unknown_B5 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Constant 0x05.";
+CM_ SG_ 947 Unknown_B7 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] 0x38/0x3B/0x3C/0x3F toggling (translator fixed 0x3C).";
+CM_ BO_ 942 "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Static 00 17 00 00 0B 0F 00 00 at 1000 ms. Translator sends the identical payload (but per received frame, not 1 Hz).";
+CM_ SG_ 942 HS_3AE_Data "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1068 "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Static 88 01 88 14 00 64 02 00 at 50 ms on HS. Translator sends all zeros. On MS-CAN 0x42C is all zeros at 1000 ms.";
+CM_ SG_ 1068 HS_42C_Data "[conf=high] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1409 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] HS network-management keep-alive, 1000 ms, payload 01 00 ff ff ff ff ff ff. b0 = ID-0x580 (node number). Not sent by the translator; may matter to the cluster (unverified).";
+CM_ SG_ 1409 NodeId "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Equals ID-0x580 on all four nodes seen.";
+CM_ SG_ 1409 Status "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Always 00 while awake.";
+CM_ SG_ 1409 Filler "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Always FF.";
+CM_ BO_ 1425 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] HS network-management keep-alive, 1000 ms, payload 11 00 ff ff ff ff ff ff. b0 = ID-0x580 (node number). Not sent by the translator; may matter to the cluster (unverified).";
+CM_ SG_ 1425 NodeId "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Equals ID-0x580 on all four nodes seen.";
+CM_ SG_ 1425 Status "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Always 00 while awake.";
+CM_ SG_ 1425 Filler "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Always FF.";
+CM_ BO_ 1440 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] HS network-management keep-alive, 1000 ms, payload 20 00 ff ff ff ff ff ff. b0 = ID-0x580 (node number). Not sent by the translator; may matter to the cluster (unverified).";
+CM_ SG_ 1440 NodeId "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Equals ID-0x580 on all four nodes seen.";
+CM_ SG_ 1440 Status "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Always 00 while awake.";
+CM_ SG_ 1440 Filler "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Always FF.";
+CM_ BO_ 1459 "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] HS network-management keep-alive, 1000 ms, payload 33 00 ff ff ff ff ff ff. b0 = ID-0x580 (node number). Not sent by the translator; may matter to the cluster (unverified).";
+CM_ SG_ 1459 NodeId "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Equals ID-0x580 on all four nodes seen.";
+CM_ SG_ 1459 Status "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Always 00 while awake.";
+CM_ SG_ 1459 Filler "[conf=medium] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Always FF.";
+CM_ BO_ 65 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9397, varying bytes none, typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 65 RAW_041_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 71 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9404, varying bytes none, typical 20 00 00 00 00 00 00 00.";
+CM_ SG_ 71 RAW_047_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 116 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9414, varying bytes [0, 1, 5], typical 7d 00 00 00 00 40 00 00.";
+CM_ SG_ 116 RAW_074_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 124 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9413, varying bytes [0, 1, 4, 5], typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 124 RAW_07C_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 131 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 999.7 ms, n=188, varying bytes none, typical 08 18 00 00 00 00 00 00.";
+CM_ SG_ 131 RAW_083_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 132 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 10.0 ms, n=18821, varying bytes [0, 1, 4, 5, 6, 7], typical 5e 2e ff fe ab a0 6d 97.";
+CM_ SG_ 132 RAW_084_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 145 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9408, varying bytes [2, 3, 4, 5], typical 00 00 7e f4 7e f4 00 00.";
+CM_ SG_ 145 RAW_091_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 146 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9409, varying bytes [0, 1, 2, 3, 4, 5], typical 6f 97 6f 9b 73 6b 00 00.";
+CM_ SG_ 146 RAW_092_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 258 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 998.6 ms, n=189, varying bytes none, typical 14 00 00 00 00 00 00 00.";
+CM_ SG_ 258 RAW_102_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 259 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 1000.1 ms, n=188, varying bytes [4, 7], typical 14 00 00 00 02 00 67 60.";
+CM_ SG_ 259 RAW_103_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 266 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 998.6 ms, n=189, varying bytes none, typical 40 00 00 00 00 00 00 00.";
+CM_ SG_ 266 RAW_10A_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 267 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 999.6 ms, n=188, varying bytes none, typical 60 00 00 00 00 00 00 00.";
+CM_ SG_ 267 RAW_10B_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 336 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 16.1 ms, n=11759, varying bytes [3, 4, 5], typical ff e0 2b 3b 00 00 00 00.";
+CM_ SG_ 336 RAW_150_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 337 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 16.0 ms, n=11756, varying bytes [0, 1, 2, 3, 4], typical 10 10 00 00 20 00 00 00.";
+CM_ SG_ 337 RAW_151_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 338 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 16.0 ms, n=11757, varying bytes [2, 3, 6], typical 00 00 08 c5 00 00 20 00.";
+CM_ SG_ 338 RAW_152_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 339 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9412, varying bytes [3, 4, 5, 6, 7], typical 00 00 00 3b 21 90 85 80.";
+CM_ SG_ 339 RAW_153_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 340 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9413, varying bytes [0, 1], typical 28 07 6c 00 00 00 4f 2c.";
+CM_ SG_ 340 RAW_154_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 341 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9409, varying bytes [1, 2], typical 00 38 40 00 00 00 00 00.";
+CM_ SG_ 341 RAW_155_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 343 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 40.0 ms, n=4695, varying bytes none, typical 00 00 00 00 99 00 00 00.";
+CM_ SG_ 343 RAW_157_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 345 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 100.0 ms, n=1883, varying bytes [1, 5, 6, 7], typical ae a6 00 18 22 00 1d 02.";
+CM_ SG_ 345 RAW_159_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 346 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9408, varying bytes [0, 1, 4, 5], typical 4b 60 03 00 09 70 00 00.";
+CM_ SG_ 346 RAW_15A_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 348 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 100.0 ms, n=1882, varying bytes none, typical 00 00 00 00 00 00 10 00.";
+CM_ SG_ 348 RAW_15C_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 349 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 100.0 ms, n=1881, varying bytes none, typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 349 RAW_15D_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 352 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 8.0 ms, n=23521, varying bytes [0, 1, 2, 3, 4, 5], typical 09 e4 0a a0 09 e0 00 00.";
+CM_ SG_ 352 RAW_160_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 353 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9395, varying bytes none, typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 353 RAW_161_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 354 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 200.0 ms, n=941, varying bytes [1], typical 77 c0 fe 20 00 00 00 00.";
+CM_ SG_ 354 RAW_162_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 355 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 100.0 ms, n=1878, varying bytes none, typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 355 RAW_163_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 357 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9409, varying bytes [0, 3], typical 40 00 00 40 00 00 00 05.";
+CM_ SG_ 357 RAW_165_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 512 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9414, varying bytes [0, 1, 2, 3, 4, 5, 6], typical 80 29 7f bc 80 2a 00 00.";
+CM_ SG_ 512 RAW_200_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 529 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9414, varying bytes [5, 6], typical ff ff ff d0 00 7f c0 00.";
+CM_ SG_ 529 RAW_211_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 533 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9415, varying bytes [0, 1, 2, 3, 4, 5, 6, 7], typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 533 RAW_215_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 534 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 20.0 ms, n=9416, varying bytes [0, 1, 2, 3, 5], typical 4f 52 6c 4c aa ec 00 00.";
+CM_ SG_ 534 RAW_216_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 561 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 55.7 ms, n=3360, varying bytes [1, 3, 4], typical 00 00 00 35 20 00 1f 40.";
+CM_ SG_ 561 RAW_231_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 562 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 16.1 ms, n=11765, varying bytes [1, 5, 6], typical 00 06 00 00 00 00 12 00.";
+CM_ SG_ 562 RAW_232_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 576 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 40.0 ms, n=4707, varying bytes [6], typical 00 7c 00 00 00 80 00 00.";
+CM_ SG_ 576 RAW_240_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 608 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 50.0 ms, n=3761, varying bytes none, typical c2 00 00 20 00 ff f8 00.";
+CM_ SG_ 608 RAW_260_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 832 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 99.9 ms, n=1884, varying bytes [1, 2, 6], typical 02 18 00 00 00 00 70 00.";
+CM_ SG_ 832 RAW_340_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 848 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 998.7 ms, n=189, varying bytes [0], typical 00 20 00 00 00 00 00 00.";
+CM_ SG_ 848 RAW_350_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 906 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 1000.0 ms, n=189, varying bytes [0, 2, 6, 7], typical 02 98 81 90 00 00 21 b3.";
+CM_ SG_ 906 RAW_38A_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 909 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 200.0 ms, n=942, varying bytes none, typical 00 00 02 48 12 00 00 00.";
+CM_ SG_ 909 RAW_38D_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 936 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 19.9 ms, n=9408, varying bytes none, typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 936 RAW_3A8_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 937 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 999.6 ms, n=188, varying bytes none, typical ff bf fb ff bf fb 0f f0.";
+CM_ SG_ 937 RAW_3A9_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 948 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 500.0 ms, n=377, varying bytes none, typical 40 11 11 ff 00 00 00 00.";
+CM_ SG_ 948 RAW_3B4_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 949 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 500.0 ms, n=377, varying bytes [0, 1, 2, 3], typical 35 47 50 54 ff ff 00 00.";
+CM_ SG_ 949 RAW_3B5_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 955 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 999.7 ms, n=188, varying bytes none, typical c0 00 00 00 00 00 00 00.";
+CM_ SG_ 955 RAW_3BB_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 963 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 1000.1 ms, n=193, varying bytes [2, 5], typical 00 00 00 00 01 00 08 00.";
+CM_ SG_ 963 RAW_3C3_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 967 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 1000.0 ms, n=202, varying bytes [0, 1, 5], typical 20 45 80 00 7e 20 00 00.";
+CM_ SG_ 967 RAW_3C7_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 992 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 998.7 ms, n=189, varying bytes none, typical 00 00 00 00 80 00 00 00.";
+CM_ SG_ 992 RAW_3E0_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 993 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 1000.0 ms, n=188, varying bytes none, typical 97 14 80 00 00 00 00 00.";
+CM_ SG_ 993 RAW_3E1_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 995 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 1000.1 ms, n=188, varying bytes none, typical 00 02 04 06 80 00 00 00.";
+CM_ SG_ 995 RAW_3E3_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 998 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 999.8 ms, n=188, varying bytes none, typical 00 01 04 07 80 00 00 00.";
+CM_ SG_ 998 RAW_3E6_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 999 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 1000.1 ms, n=188, varying bytes [4], typical 00 00 00 00 1c 00 00 00.";
+CM_ SG_ 999 RAW_3E7_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1004 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 1000.1 ms, n=188, varying bytes none, typical 00 00 00 00 1c 00 00 00.";
+CM_ SG_ 1004 RAW_3EC_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1036 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 19.9 ms, n=9408, varying bytes none, typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 1036 RAW_40C_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1046 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 99.9 ms, n=1883, varying bytes [0], typical 50 00 00 00 01 00 00 00.";
+CM_ SG_ 1046 RAW_416_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1047 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 19.9 ms, n=9403, varying bytes none, typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 1047 RAW_417_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1058 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 100.0 ms, n=1883, varying bytes [1, 2, 3, 4, 5], typical 00 ac 80 00 7f 86 00 00.";
+CM_ SG_ 1058 RAW_422_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1067 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 50.1 ms, n=3752, varying bytes [3], typical 00 00 00 40 00 00 00 00.";
+CM_ SG_ 1067 RAW_42B_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1075 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 50.1 ms, n=3479, varying bytes [0, 1, 2], typical 44 4d c0 00 20 00 00 08.";
+CM_ SG_ 1075 RAW_433_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1093 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 96.0 ms, n=1960, varying bytes [0], typical 00 00 20 00 00 00 00 00.";
+CM_ SG_ 1093 RAW_445_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1108 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 999.5 ms, n=188, varying bytes none, typical 37 31 30 34 39 36 31 33.";
+CM_ SG_ 1108 RAW_454_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1109 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 100.0 ms, n=1882, varying bytes none, typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 1109 RAW_455_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+CM_ BO_ 1186 "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded. Median period 50.0 ms, n=3762, varying bytes none, typical 00 00 00 00 00 00 00 00.";
+CM_ SG_ 1186 RAW_4A2_Data "[conf=low] [src=drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)] Undecoded payload, big-endian integer of all bytes.";
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ BO_ "MsgConfidence" ENUM "high","medium","low";
+BA_DEF_ BO_ "MsgSource" STRING ;
+BA_DEF_ SG_ "SigConfidence" ENUM "high","medium","low";
+BA_DEF_ SG_ "SigSource" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "Baudrate" INT 0 1000000;
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "MsgConfidence" "low";
+BA_DEF_DEF_ "MsgSource" "";
+BA_DEF_DEF_ "SigConfidence" "low";
+BA_DEF_DEF_ "SigSource" "";
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "Baudrate" 500000;
+BA_ "BusType" "CAN";
+BA_ "Baudrate" 500000;
+BA_ "GenMsgCycleTime" BO_ 513 10;
+BA_ "MsgConfidence" BO_ 513 0;
+BA_ "MsgSource" BO_ 513 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 513 EngineSpeed 0;
+BA_ "SigSource" SG_ 513 EngineSpeed "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 513 VehicleSpeed 0;
+BA_ "SigSource" SG_ 513 VehicleSpeed "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 513 Unknown_B4_5 2;
+BA_ "SigSource" SG_ 513 Unknown_B4_5 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 513 Unknown_B6 1;
+BA_ "SigSource" SG_ 513 Unknown_B6 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 513 Unknown_B7 1;
+BA_ "SigSource" SG_ 513 Unknown_B7 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 560 16;
+BA_ "MsgConfidence" BO_ 560 1;
+BA_ "MsgSource" BO_ 560 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 560 GearEngaged 0;
+BA_ "SigSource" SG_ 560 GearEngaged "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 560 ShiftState 1;
+BA_ "SigSource" SG_ 560 ShiftState "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 560 Unknown_B1 1;
+BA_ "SigSource" SG_ 560 Unknown_B1 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 560 Unknown_B2 2;
+BA_ "SigSource" SG_ 560 Unknown_B2 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 560 TransFluidTemp 2;
+BA_ "SigSource" SG_ 560 TransFluidTemp "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 560 Unknown_B4 1;
+BA_ "SigSource" SG_ 560 Unknown_B4 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 560 GearRatio 0;
+BA_ "SigSource" SG_ 560 GearRatio "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 560 Unknown_B7 2;
+BA_ "SigSource" SG_ 560 Unknown_B7 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 342 100;
+BA_ "MsgConfidence" BO_ 342 1;
+BA_ "MsgSource" BO_ 342 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 342 EngineCoolantTemp 1;
+BA_ "SigSource" SG_ 342 EngineCoolantTemp "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 342 PossibleOilTemp 2;
+BA_ "SigSource" SG_ 342 PossibleOilTemp "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 342 Unknown_B4 1;
+BA_ "SigSource" SG_ 342 Unknown_B4 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 342 Unknown_B5 2;
+BA_ "SigSource" SG_ 342 Unknown_B5 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1031 20;
+BA_ "MsgConfidence" BO_ 1031 0;
+BA_ "MsgSource" BO_ 1031 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); Bo 2026-10-22";
+BA_ "SigConfidence" SG_ 1031 BoostRaw 2;
+BA_ "SigSource" SG_ 1031 BoostRaw "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); Bo 2026-10-22";
+BA_ "SigConfidence" SG_ 1031 Unknown_B2 2;
+BA_ "SigSource" SG_ 1031 Unknown_B2 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); Bo 2026-10-22";
+BA_ "GenMsgCycleTime" BO_ 1045 50;
+BA_ "MsgConfidence" BO_ 1045 1;
+BA_ "MsgSource" BO_ 1045 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1045 VehicleSpeed 0;
+BA_ "SigSource" SG_ 1045 VehicleSpeed "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1045 Unknown_B2 1;
+BA_ "SigSource" SG_ 1045 Unknown_B2 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1045 Unknown_B5 2;
+BA_ "SigSource" SG_ 1045 Unknown_B5 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1045 Unknown_B6 2;
+BA_ "SigSource" SG_ 1045 Unknown_B6 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1056 100;
+BA_ "MsgConfidence" BO_ 1056 2;
+BA_ "MsgSource" BO_ 1056 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1056 Unknown_B6 2;
+BA_ "SigSource" SG_ 1056 Unknown_B6 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1056 Unknown_B7 1;
+BA_ "SigSource" SG_ 1056 Unknown_B7 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1072 20;
+BA_ "MsgConfidence" BO_ 1072 2;
+BA_ "MsgSource" BO_ 1072 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1072 Unknown_B0_2 2;
+BA_ "SigSource" SG_ 1072 Unknown_B0_2 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1072 OdometerCandidate 2;
+BA_ "SigSource" SG_ 1072 OdometerCandidate "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1072 Unknown_B6_7 2;
+BA_ "SigSource" SG_ 1072 Unknown_B6_7 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1034 200;
+BA_ "MsgConfidence" BO_ 1034 0;
+BA_ "MsgSource" BO_ 1034 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 MuxId 0;
+BA_ "SigSource" SG_ 1034 MuxId "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 VIN_Chars_1_6 0;
+BA_ "SigSource" SG_ 1034 VIN_Chars_1_6 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 VIN_Chars_7_12 0;
+BA_ "SigSource" SG_ 1034 VIN_Chars_7_12 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 VIN_Chars_13_17 0;
+BA_ "SigSource" SG_ 1034 VIN_Chars_13_17 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 C104_Data 2;
+BA_ "SigSource" SG_ 1034 C104_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 C110_Data 2;
+BA_ "SigSource" SG_ 1034 C110_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "SigConfidence" SG_ 1034 RealTimeClock 1;
+BA_ "SigSource" SG_ 1034 RealTimeClock "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN); MS candump 2020-06-02 19:13/19:16 (friend 2011 F-350 truck bus)";
+BA_ "GenMsgCycleTime" BO_ 947 500;
+BA_ "MsgConfidence" BO_ 947 2;
+BA_ "MsgSource" BO_ 947 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 947 Unknown_B0_1 1;
+BA_ "SigSource" SG_ 947 Unknown_B0_1 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 947 SelectorCandidate 2;
+BA_ "SigSource" SG_ 947 SelectorCandidate "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 947 Unknown_B3 1;
+BA_ "SigSource" SG_ 947 Unknown_B3 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 947 Unknown_B5 1;
+BA_ "SigSource" SG_ 947 Unknown_B5 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 947 Unknown_B7 2;
+BA_ "SigSource" SG_ 947 Unknown_B7 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 942 1000;
+BA_ "MsgConfidence" BO_ 942 0;
+BA_ "MsgSource" BO_ 942 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 942 HS_3AE_Data 0;
+BA_ "SigSource" SG_ 942 HS_3AE_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1068 50;
+BA_ "MsgConfidence" BO_ 1068 0;
+BA_ "MsgSource" BO_ 1068 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1068 HS_42C_Data 0;
+BA_ "SigSource" SG_ 1068 HS_42C_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1409 1000;
+BA_ "MsgConfidence" BO_ 1409 1;
+BA_ "MsgSource" BO_ 1409 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1409 NodeId 1;
+BA_ "SigSource" SG_ 1409 NodeId "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1409 Status 2;
+BA_ "SigSource" SG_ 1409 Status "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1409 Filler 1;
+BA_ "SigSource" SG_ 1409 Filler "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1425 999;
+BA_ "MsgConfidence" BO_ 1425 1;
+BA_ "MsgSource" BO_ 1425 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1425 NodeId 1;
+BA_ "SigSource" SG_ 1425 NodeId "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1425 Status 2;
+BA_ "SigSource" SG_ 1425 Status "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1425 Filler 1;
+BA_ "SigSource" SG_ 1425 Filler "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1440 1000;
+BA_ "MsgConfidence" BO_ 1440 1;
+BA_ "MsgSource" BO_ 1440 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1440 NodeId 1;
+BA_ "SigSource" SG_ 1440 NodeId "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1440 Status 2;
+BA_ "SigSource" SG_ 1440 Status "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1440 Filler 1;
+BA_ "SigSource" SG_ 1440 Filler "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1459 1000;
+BA_ "MsgConfidence" BO_ 1459 1;
+BA_ "MsgSource" BO_ 1459 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1459 NodeId 1;
+BA_ "SigSource" SG_ 1459 NodeId "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1459 Status 2;
+BA_ "SigSource" SG_ 1459 Status "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1459 Filler 1;
+BA_ "SigSource" SG_ 1459 Filler "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 65 20;
+BA_ "MsgConfidence" BO_ 65 2;
+BA_ "MsgSource" BO_ 65 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 65 RAW_041_Data 2;
+BA_ "SigSource" SG_ 65 RAW_041_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 71 20;
+BA_ "MsgConfidence" BO_ 71 2;
+BA_ "MsgSource" BO_ 71 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 71 RAW_047_Data 2;
+BA_ "SigSource" SG_ 71 RAW_047_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 116 20;
+BA_ "MsgConfidence" BO_ 116 2;
+BA_ "MsgSource" BO_ 116 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 116 RAW_074_Data 2;
+BA_ "SigSource" SG_ 116 RAW_074_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 124 20;
+BA_ "MsgConfidence" BO_ 124 2;
+BA_ "MsgSource" BO_ 124 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 124 RAW_07C_Data 2;
+BA_ "SigSource" SG_ 124 RAW_07C_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 131 1000;
+BA_ "MsgConfidence" BO_ 131 2;
+BA_ "MsgSource" BO_ 131 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 131 RAW_083_Data 2;
+BA_ "SigSource" SG_ 131 RAW_083_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 132 10;
+BA_ "MsgConfidence" BO_ 132 2;
+BA_ "MsgSource" BO_ 132 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 132 RAW_084_Data 2;
+BA_ "SigSource" SG_ 132 RAW_084_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 145 20;
+BA_ "MsgConfidence" BO_ 145 2;
+BA_ "MsgSource" BO_ 145 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 145 RAW_091_Data 2;
+BA_ "SigSource" SG_ 145 RAW_091_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 146 20;
+BA_ "MsgConfidence" BO_ 146 2;
+BA_ "MsgSource" BO_ 146 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 146 RAW_092_Data 2;
+BA_ "SigSource" SG_ 146 RAW_092_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 258 999;
+BA_ "MsgConfidence" BO_ 258 2;
+BA_ "MsgSource" BO_ 258 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 258 RAW_102_Data 2;
+BA_ "SigSource" SG_ 258 RAW_102_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 259 1000;
+BA_ "MsgConfidence" BO_ 259 2;
+BA_ "MsgSource" BO_ 259 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 259 RAW_103_Data 2;
+BA_ "SigSource" SG_ 259 RAW_103_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 266 999;
+BA_ "MsgConfidence" BO_ 266 2;
+BA_ "MsgSource" BO_ 266 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 266 RAW_10A_Data 2;
+BA_ "SigSource" SG_ 266 RAW_10A_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 267 1000;
+BA_ "MsgConfidence" BO_ 267 2;
+BA_ "MsgSource" BO_ 267 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 267 RAW_10B_Data 2;
+BA_ "SigSource" SG_ 267 RAW_10B_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 336 16;
+BA_ "MsgConfidence" BO_ 336 2;
+BA_ "MsgSource" BO_ 336 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 336 RAW_150_Data 2;
+BA_ "SigSource" SG_ 336 RAW_150_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 337 16;
+BA_ "MsgConfidence" BO_ 337 2;
+BA_ "MsgSource" BO_ 337 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 337 RAW_151_Data 2;
+BA_ "SigSource" SG_ 337 RAW_151_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 338 16;
+BA_ "MsgConfidence" BO_ 338 2;
+BA_ "MsgSource" BO_ 338 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 338 RAW_152_Data 2;
+BA_ "SigSource" SG_ 338 RAW_152_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 339 20;
+BA_ "MsgConfidence" BO_ 339 2;
+BA_ "MsgSource" BO_ 339 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 339 RAW_153_Data 2;
+BA_ "SigSource" SG_ 339 RAW_153_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 340 20;
+BA_ "MsgConfidence" BO_ 340 2;
+BA_ "MsgSource" BO_ 340 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 340 RAW_154_Data 2;
+BA_ "SigSource" SG_ 340 RAW_154_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 341 20;
+BA_ "MsgConfidence" BO_ 341 2;
+BA_ "MsgSource" BO_ 341 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 341 RAW_155_Data 2;
+BA_ "SigSource" SG_ 341 RAW_155_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 343 40;
+BA_ "MsgConfidence" BO_ 343 2;
+BA_ "MsgSource" BO_ 343 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 343 RAW_157_Data 2;
+BA_ "SigSource" SG_ 343 RAW_157_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 345 100;
+BA_ "MsgConfidence" BO_ 345 2;
+BA_ "MsgSource" BO_ 345 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 345 RAW_159_Data 2;
+BA_ "SigSource" SG_ 345 RAW_159_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 346 20;
+BA_ "MsgConfidence" BO_ 346 2;
+BA_ "MsgSource" BO_ 346 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 346 RAW_15A_Data 2;
+BA_ "SigSource" SG_ 346 RAW_15A_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 348 100;
+BA_ "MsgConfidence" BO_ 348 2;
+BA_ "MsgSource" BO_ 348 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 348 RAW_15C_Data 2;
+BA_ "SigSource" SG_ 348 RAW_15C_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 349 100;
+BA_ "MsgConfidence" BO_ 349 2;
+BA_ "MsgSource" BO_ 349 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 349 RAW_15D_Data 2;
+BA_ "SigSource" SG_ 349 RAW_15D_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 352 8;
+BA_ "MsgConfidence" BO_ 352 2;
+BA_ "MsgSource" BO_ 352 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 352 RAW_160_Data 2;
+BA_ "SigSource" SG_ 352 RAW_160_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 353 20;
+BA_ "MsgConfidence" BO_ 353 2;
+BA_ "MsgSource" BO_ 353 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 353 RAW_161_Data 2;
+BA_ "SigSource" SG_ 353 RAW_161_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 354 200;
+BA_ "MsgConfidence" BO_ 354 2;
+BA_ "MsgSource" BO_ 354 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 354 RAW_162_Data 2;
+BA_ "SigSource" SG_ 354 RAW_162_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 355 100;
+BA_ "MsgConfidence" BO_ 355 2;
+BA_ "MsgSource" BO_ 355 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 355 RAW_163_Data 2;
+BA_ "SigSource" SG_ 355 RAW_163_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 357 20;
+BA_ "MsgConfidence" BO_ 357 2;
+BA_ "MsgSource" BO_ 357 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 357 RAW_165_Data 2;
+BA_ "SigSource" SG_ 357 RAW_165_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 512 20;
+BA_ "MsgConfidence" BO_ 512 2;
+BA_ "MsgSource" BO_ 512 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 512 RAW_200_Data 2;
+BA_ "SigSource" SG_ 512 RAW_200_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 529 20;
+BA_ "MsgConfidence" BO_ 529 2;
+BA_ "MsgSource" BO_ 529 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 529 RAW_211_Data 2;
+BA_ "SigSource" SG_ 529 RAW_211_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 533 20;
+BA_ "MsgConfidence" BO_ 533 2;
+BA_ "MsgSource" BO_ 533 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 533 RAW_215_Data 2;
+BA_ "SigSource" SG_ 533 RAW_215_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 534 20;
+BA_ "MsgConfidence" BO_ 534 2;
+BA_ "MsgSource" BO_ 534 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 534 RAW_216_Data 2;
+BA_ "SigSource" SG_ 534 RAW_216_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 561 56;
+BA_ "MsgConfidence" BO_ 561 2;
+BA_ "MsgSource" BO_ 561 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 561 RAW_231_Data 2;
+BA_ "SigSource" SG_ 561 RAW_231_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 562 16;
+BA_ "MsgConfidence" BO_ 562 2;
+BA_ "MsgSource" BO_ 562 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 562 RAW_232_Data 2;
+BA_ "SigSource" SG_ 562 RAW_232_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 576 40;
+BA_ "MsgConfidence" BO_ 576 2;
+BA_ "MsgSource" BO_ 576 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 576 RAW_240_Data 2;
+BA_ "SigSource" SG_ 576 RAW_240_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 608 50;
+BA_ "MsgConfidence" BO_ 608 2;
+BA_ "MsgSource" BO_ 608 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 608 RAW_260_Data 2;
+BA_ "SigSource" SG_ 608 RAW_260_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 832 100;
+BA_ "MsgConfidence" BO_ 832 2;
+BA_ "MsgSource" BO_ 832 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 832 RAW_340_Data 2;
+BA_ "SigSource" SG_ 832 RAW_340_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 848 999;
+BA_ "MsgConfidence" BO_ 848 2;
+BA_ "MsgSource" BO_ 848 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 848 RAW_350_Data 2;
+BA_ "SigSource" SG_ 848 RAW_350_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 906 1000;
+BA_ "MsgConfidence" BO_ 906 2;
+BA_ "MsgSource" BO_ 906 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 906 RAW_38A_Data 2;
+BA_ "SigSource" SG_ 906 RAW_38A_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 909 200;
+BA_ "MsgConfidence" BO_ 909 2;
+BA_ "MsgSource" BO_ 909 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 909 RAW_38D_Data 2;
+BA_ "SigSource" SG_ 909 RAW_38D_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 936 20;
+BA_ "MsgConfidence" BO_ 936 2;
+BA_ "MsgSource" BO_ 936 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 936 RAW_3A8_Data 2;
+BA_ "SigSource" SG_ 936 RAW_3A8_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 937 1000;
+BA_ "MsgConfidence" BO_ 937 2;
+BA_ "MsgSource" BO_ 937 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 937 RAW_3A9_Data 2;
+BA_ "SigSource" SG_ 937 RAW_3A9_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 948 500;
+BA_ "MsgConfidence" BO_ 948 2;
+BA_ "MsgSource" BO_ 948 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 948 RAW_3B4_Data 2;
+BA_ "SigSource" SG_ 948 RAW_3B4_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 949 500;
+BA_ "MsgConfidence" BO_ 949 2;
+BA_ "MsgSource" BO_ 949 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 949 RAW_3B5_Data 2;
+BA_ "SigSource" SG_ 949 RAW_3B5_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 955 1000;
+BA_ "MsgConfidence" BO_ 955 2;
+BA_ "MsgSource" BO_ 955 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 955 RAW_3BB_Data 2;
+BA_ "SigSource" SG_ 955 RAW_3BB_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 963 1000;
+BA_ "MsgConfidence" BO_ 963 2;
+BA_ "MsgSource" BO_ 963 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 963 RAW_3C3_Data 2;
+BA_ "SigSource" SG_ 963 RAW_3C3_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 967 1000;
+BA_ "MsgConfidence" BO_ 967 2;
+BA_ "MsgSource" BO_ 967 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 967 RAW_3C7_Data 2;
+BA_ "SigSource" SG_ 967 RAW_3C7_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 992 999;
+BA_ "MsgConfidence" BO_ 992 2;
+BA_ "MsgSource" BO_ 992 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 992 RAW_3E0_Data 2;
+BA_ "SigSource" SG_ 992 RAW_3E0_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 993 1000;
+BA_ "MsgConfidence" BO_ 993 2;
+BA_ "MsgSource" BO_ 993 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 993 RAW_3E1_Data 2;
+BA_ "SigSource" SG_ 993 RAW_3E1_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 995 1000;
+BA_ "MsgConfidence" BO_ 995 2;
+BA_ "MsgSource" BO_ 995 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 995 RAW_3E3_Data 2;
+BA_ "SigSource" SG_ 995 RAW_3E3_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 998 1000;
+BA_ "MsgConfidence" BO_ 998 2;
+BA_ "MsgSource" BO_ 998 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 998 RAW_3E6_Data 2;
+BA_ "SigSource" SG_ 998 RAW_3E6_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 999 1000;
+BA_ "MsgConfidence" BO_ 999 2;
+BA_ "MsgSource" BO_ 999 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 999 RAW_3E7_Data 2;
+BA_ "SigSource" SG_ 999 RAW_3E7_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1004 1000;
+BA_ "MsgConfidence" BO_ 1004 2;
+BA_ "MsgSource" BO_ 1004 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1004 RAW_3EC_Data 2;
+BA_ "SigSource" SG_ 1004 RAW_3EC_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1036 20;
+BA_ "MsgConfidence" BO_ 1036 2;
+BA_ "MsgSource" BO_ 1036 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1036 RAW_40C_Data 2;
+BA_ "SigSource" SG_ 1036 RAW_40C_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1046 100;
+BA_ "MsgConfidence" BO_ 1046 2;
+BA_ "MsgSource" BO_ 1046 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1046 RAW_416_Data 2;
+BA_ "SigSource" SG_ 1046 RAW_416_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1047 20;
+BA_ "MsgConfidence" BO_ 1047 2;
+BA_ "MsgSource" BO_ 1047 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1047 RAW_417_Data 2;
+BA_ "SigSource" SG_ 1047 RAW_417_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1058 100;
+BA_ "MsgConfidence" BO_ 1058 2;
+BA_ "MsgSource" BO_ 1058 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1058 RAW_422_Data 2;
+BA_ "SigSource" SG_ 1058 RAW_422_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1067 50;
+BA_ "MsgConfidence" BO_ 1067 2;
+BA_ "MsgSource" BO_ 1067 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1067 RAW_42B_Data 2;
+BA_ "SigSource" SG_ 1067 RAW_42B_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1075 50;
+BA_ "MsgConfidence" BO_ 1075 2;
+BA_ "MsgSource" BO_ 1075 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1075 RAW_433_Data 2;
+BA_ "SigSource" SG_ 1075 RAW_433_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1093 96;
+BA_ "MsgConfidence" BO_ 1093 2;
+BA_ "MsgSource" BO_ 1093 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1093 RAW_445_Data 2;
+BA_ "SigSource" SG_ 1093 RAW_445_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1108 999;
+BA_ "MsgConfidence" BO_ 1108 2;
+BA_ "MsgSource" BO_ 1108 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1108 RAW_454_Data 2;
+BA_ "SigSource" SG_ 1108 RAW_454_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1109 100;
+BA_ "MsgConfidence" BO_ 1109 2;
+BA_ "MsgSource" BO_ 1109 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1109 RAW_455_Data 2;
+BA_ "SigSource" SG_ 1109 RAW_455_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "GenMsgCycleTime" BO_ 1186 50;
+BA_ "MsgConfidence" BO_ 1186 2;
+BA_ "MsgSource" BO_ 1186 "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+BA_ "SigConfidence" SG_ 1186 RAW_4A2_Data 2;
+BA_ "SigSource" SG_ 1186 RAW_4A2_Data "drive log 2021-06-08 (friend 2011 F-350 6.7L, HS-CAN)";
+VAL_ 560 GearEngaged 0 "P/N" 1 "1st" 2 "2nd" 3 "3rd" 4 "4th (assumed)" 5 "5th (assumed)" 6 "6th (assumed)" 14 "Reverse" ;
+VAL_ 560 ShiftState 0 "init/PN" 2 "steady" 3 "shift in progress" ;
+VAL_ 1034 MuxId 49408 "VIN 1-6" 49409 "VIN 7-12" 49410 "VIN 13-17" 49412 "unknown C104" 49424 "unknown C110" 49152 "clock" ;
+VAL_ 947 SelectorCandidate 13 "P? (before shift)" 1 "R" 14 "N? (transient)" 7 "D" ;

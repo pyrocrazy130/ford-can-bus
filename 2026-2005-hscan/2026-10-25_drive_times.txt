@@ -1,0 +1,60 @@
+candump_start_epoch=1792955144.687
+candump_start_local=2026-10-25T12:05:44.687
+listen_only=yes
+bitrate=500000
+iface=can0
+ground_jumper=not_confirmed
+
+can1_up_listen_only=yes
+candump_can1_start_epoch=1792955434.295
+candump_can1_start_local=2026-10-25T12:10:34.295
+can0_rx_at_switch=0
+note=board CAN1 LEDs lit; linux can1 is the live HS-CAN channel
+
+user_said_done_local=2026-10-25T12:11:22-07:00
+forscan_play_verified=no
+forscan_counter_at_check=0.00/0.00
+forscan_status=Ready
+note2=STN adapter still on 2s keepalive only; no 7E0/7E8 in can1 log yet
+
+forscan_play_verified=yes
+forscan_first_pid_poll_epoch=1792955689.792
+forscan_first_pid_poll_local=2026-10-25T12:14:49.791
+forscan_first_pid_id=7E1
+ref_offset_epoch=1792955689.792
+note3=user confirmed logging; first 7Ex poll used as play-click anchor
+
+grade=missed
+cruise_note_local=2026-10-25T12:19:27-0700
+note4=Grade already passed before FORScan stream worked. No second climb today. Capture from here is highway cruise only. CAN log may contain a little pre-FORScan road data from 12:10:34; do not treat that as the grade.
+
+tow_haul_on_epoch=1792956122.826
+tow_haul_on_local=2026-10-25T12:22:02-0700
+note5=Passenger said driver is putting the truck in tow/haul. End time not yet marked.
+
+tow_haul_off_epoch=1792956375.943
+tow_haul_off_local=2026-10-25T12:26:15-0700
+tow_haul_duration_s=253
+note6=Passenger said tow/haul is off.
+
+side_streets_epoch=1792956517.845
+side_streets_local=2026-10-25T12:28:37-0700
+note7=Passenger said turning onto side streets. Highway cruise ended.
+
+parked_epoch=1792957003.231
+parked_local=2026-10-25T12:36:43-0700
+note8=Passenger said parked. Hot idle and key-off not yet marked.
+
+forscan_saved_local=2026-10-25T12:41:17-0700
+forscan_fsl=/home/pyrocrazy130/Documents/FORScan/2026-10-25_drive_forscan_A.fsl
+forscan_fsl_mtime=12:39:40
+forscan_csv_saved_as=/home/pyrocrazy130/Documents/FORScan/2026-10-25_drive_forsca_An.csv
+forscan_csv_mtime=12:40:15
+forscan_csv_name_typo=yes
+forscan_csv_duration_ms=1358939
+forscan_csv_last=RPM 687 VSS 0 EOT 89 TFT 71 GEAR 1 OSS 0
+note9=CSV filename typed as drive_forsca_An.csv. All 14 PIDs present. Diag polling had stopped by this check. Key-off not yet marked.
+
+key_off_epoch=1792957307.865
+key_off_local=2026-10-25T12:41:47-0700
+note10=Passenger said key off. CAN log left running 30 s after this stamp.
