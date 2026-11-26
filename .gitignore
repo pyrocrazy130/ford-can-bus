@@ -1,0 +1,13 @@
+# New 2008 F-350 captures stay on the laptop under ~/truck-logs.
+# This public repo already tracks older, VIN-masked logs. Do not add raw
+# session captures here. There is no Git LFS; large files were committed
+# directly in the past, and that is not the pattern for new logs.
+/truck-logs/
+vehicles/2008-f350-6.4/logs/
+vehicles/2008-f350-6.4/captures/
+
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+*.json.tmp

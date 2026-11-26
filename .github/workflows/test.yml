@@ -1,0 +1,23 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  vcan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install CAN tools, tk, and pytest
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-venv python3-tk iproute2 can-utils
+          sudo modprobe vcan || {
+            sudo apt-get install -y "linux-modules-extra-$(uname -r)" || true
+            sudo modprobe vcan
+          }
+          python3 -m venv .venv
+          .venv/bin/pip install -r vehicles/2008-f350-6.4/requirements.txt
+      - name: Run unit tests and a vcan capture
+        run: REQUIRE_VCAN=1 .venv/bin/python -m pytest vehicles/2008-f350-6.4/tests -q

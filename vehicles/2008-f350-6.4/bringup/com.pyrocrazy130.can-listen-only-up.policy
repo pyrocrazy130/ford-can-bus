@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+  <vendor>pyrocrazy130</vendor>
+  <vendor_url>https://github.com/pyrocrazy130/ford-can-bus</vendor_url>
+  <action id="com.pyrocrazy130.can-listen-only-up">
+    <description>Bring SocketCAN interfaces up listen-only</description>
+    <message>Authentication is required to set CAN interfaces listen-only (no transmit). This does not touch the OBDLink EX.</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/local/sbin/can-listen-only-up</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+</policyconfig>

@@ -1,0 +1,2 @@
+cantools>=39
+pytest>=7

@@ -1,0 +1,144 @@
+VERSION "ford_2008_f350_hscan"
+
+NS_ :
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	BA_DEF_DEF_
+
+BS_:
+
+BU_:
+
+BO_ 262 Hyp_106_EngineLoad: 8 Vector__XXX
+ SG_ Hyp2005_EngineLoad : 63|8@0+ (0.3921568627,0) [0|100] "%" Vector__XXX
+
+BO_ 342 Hyp_156_Coolant: 8 Vector__XXX
+ SG_ Hyp2011_EngineCoolantTemp : 7|8@0+ (1,-60) [-60|195] "degC" Vector__XXX
+
+BO_ 513 Hyp_201_EngineSpeed_VehicleSpeed: 8 Vector__XXX
+ SG_ Hyp2005_EngineSpeed : 3|12@0+ (1,0) [0|4095] "rpm" Vector__XXX
+ SG_ Hyp2005_VehicleSpeed : 39|16@0+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+ SG_ Hyp2005_AccelPedal : 55|8@0+ (0.390625,0) [0|99.609375] "%" Vector__XXX
+ SG_ Hyp2011_VehicleSpeed : 23|16@0+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+
+BO_ 549 Hyp_225_ShaftSpeed_Tft: 8 Vector__XXX
+ SG_ Hyp2005_OutputShaftSpeed : 39|16@0+ (1,0) [0|65535] "rpm" Vector__XXX
+ SG_ Hyp2005_TransFluidTemp : 63|8@0+ (1,-40) [-40|215] "degC" Vector__XXX
+
+BO_ 560 Hyp_230_Gear: 8 Vector__XXX
+ SG_ Hyp2005_GearByte : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ Hyp2005_GearRatio : 8|9@0+ (0.01,0) [0|5.11] "" Vector__XXX
+
+BO_ 1034 Hyp_40A_PossibleVin: 8 Vector__XXX
+ SG_ Hyp2011_Payload : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 1056 Hyp_420_Coolant: 8 Vector__XXX
+ SG_ Hyp2005_EngineCoolantTemp : 7|8@0+ (1,-40) [-40|215] "degC" Vector__XXX
+
+BO_ 1088 Hyp_440_BrakeCandidate: 8 Vector__XXX
+ SG_ Hyp2005_BrakeSwitchCandidate : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1279 Hyp_4FF_PossibleVin: 8 Vector__XXX
+ SG_ Hyp2005_Payload : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 2015 OBD_FunctionalRequest_7DF: 8 Vector__XXX
+ SG_ DiagPayload : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 2016 OBD_PCM_Request_7E0: 8 Vector__XXX
+ SG_ DiagPayload : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 2017 Hyp_TCM_Request_7E1: 8 Vector__XXX
+ SG_ DiagPayload : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 2024 OBD_PCM_Response_7E8: 8 Vector__XXX
+ SG_ DiagPayload : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+BO_ 2025 Hyp_TCM_Response_7E9: 8 Vector__XXX
+ SG_ DiagPayload : 7|64@0+ (1,0) [0|18446744073709551615] "" Vector__XXX
+
+CM_ "HS-CAN database starter for a 2008 Ford F-350 6.4L Power Stroke, 5R110W TorqShift, TCM integrated in the PCM. No broadcast signal in this file has been confirmed on a 2008 log. Network facts that are published: the 2008 F-450 6.4L diesel workshop information-bus section (same 6.4L Super Duty powertrain family) says HS-CAN runs at a maximum of 500 Kbps and lists ABS, instrument cluster, PCM, RCM, supplemental heater, trailer brake control, TCM, and the VGT actuator; the instrument cluster is the HS/MS gateway. https://workshop-manuals.com/ford/f_450_4wd_super_duty/v8-6.4l_dsl_turbo/powertrain_management/computers_and_control_systems/information_bus/component_information/testing_and_inspection/initial_inspection_and_diagnostic_overview/page_4566/ and https://workshop-manuals.com/ford/f_450_4wd_super_duty/v8-6.4l_dsl_turbo/powertrain_management/computers_and_control_systems/information_bus/component_information/diagrams/page_4562/ The workshop lists TCM as an HS-CAN node; on this truck that function is inside the PCM. MS-CAN is not this file. Hypothesis signals are copies of layouts confirmed on other trucks in this repo (2005 6.0 5R110W, or 2011 6.7 6R140) and are named Hyp2005_ or Hyp2011_ so they are not mistaken for 2008 facts. openDBC CGEA 1.2 and later Ford car DBCs use still other layouts and were not copied into signals.";
+CM_ BO_ 262 "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc message 0x106] Engine load lived in byte 7 on the 2005 6.0. Not confirmed on the 2008 6.4.";
+CM_ SG_ 262 Hyp2005_EngineLoad "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc EngineLoad] raw times 100/255 percent, matched there to OBD load. Hypothesis for this PCM only.";
+CM_ BO_ 342 "[confidence=hypothesis] [src=dbc/ford_2011-2012_superduty_hscan.dbc message 0x156] Coolant candidate from a 2011 6.7, which is a different engine and a different truck. Offset -60 was a guess even there.";
+CM_ SG_ 342 Hyp2011_EngineCoolantTemp "[confidence=hypothesis] [src=dbc/ford_2011-2012_superduty_hscan.dbc EngineCoolantTemp] Byte 0, scale 1, offset -60. Do not treat the offset as known.";
+CM_ BO_ 513 "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc and dbc/ford_2011-2012_superduty_hscan.dbc] Both Super Duty HS captures in this repo put engine speed and vehicle speed on 0x201, but the layouts disagree. 2005 6.0: 12-bit RPM in byte0 low nibble plus byte1, speed in bytes 4-5, pedal in byte 6. 2011 6.7: RPM is bytes 0-1 times 0.25, speed is bytes 2-3 times 0.01 km/h. The 2011 RPM field overlaps the 2005 RPM field, so it is described here and is not a second signal (cantools rejects the overlap). Score both against a log with the correlate tool. openDBC ford_cgea1_2_ptcan_2011 message EngVehicleSpThrottle_CG1 is a third layout (13-bit RPM times 2) from a different platform and is not a signal here. https://github.com/commaai/opendbc/blob/master/opendbc/dbc/ford_cgea1_2_ptcan_2011.dbc Nothing on 0x201 is confirmed for the 2008 6.4.";
+CM_ SG_ 513 Hyp2005_EngineSpeed "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc EngineSpeed] 12-bit big-endian, 1 rpm per count. Confirmed on the 2005 6.0 only. The 2011 6.7 instead uses bytes 0-1 times 0.25, which overlaps these bits and is not a separate signal.";
+CM_ SG_ 513 Hyp2005_VehicleSpeed "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc VehicleSpeed] Bytes 4-5, 0.01 km/h per count. Confirmed on the 2005 6.0 only.";
+CM_ SG_ 513 Hyp2005_AccelPedal "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc AccelPedalPosition] Byte 6 times 100/256 percent. Confirmed on the 2005 6.0 only.";
+CM_ SG_ 513 Hyp2011_VehicleSpeed "[confidence=hypothesis] [src=dbc/ford_2011-2012_superduty_hscan.dbc VehicleSpeed] Bytes 2-3, 0.01 km/h per count. Confirmed on a 2011 6.7 only. Does not overlap the 2005 speed field (bytes 4-5).";
+CM_ BO_ 549 "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc message 0x225] Output shaft speed and transmission fluid temperature on the 2005 6.0, which has the same 5R110W family. Still a different PCM year. Not confirmed on the 2008.";
+CM_ SG_ 549 Hyp2005_OutputShaftSpeed "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc OutputShaftSpeed] Bytes 4-5, 1 rpm per count, matched there to the TCM output-shaft PID.";
+CM_ SG_ 549 Hyp2005_TransFluidTemp "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc TransFluidTemp] Byte 7, degrees C plus 40. Medium confidence even on the 2005 (few distinct values).";
+CM_ BO_ 560 "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc message 0x230] 5R110W gear byte and ratio on the 2005 6.0. The 2011 6.7 uses 0x230 for a 6R140 with a different nibble layout; that layout is not copied, because it is the wrong transmission. Not confirmed on the 2008.";
+CM_ SG_ 560 Hyp2005_GearByte "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc GearCode] Whole byte. There, low nibble was the gear code (5 and 6 mean 4th and 5th), 0x10 reverse, 0xF0 park/neutral. Confirm before using.";
+CM_ SG_ 560 Hyp2005_GearRatio "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc GearRatio] 9-bit field, 0.01 per count, matched there to published 5R110W ratios 3.11/2.22/1.55/1.00/0.71.";
+CM_ BO_ 1034 "[confidence=hypothesis] [src=dbc/ford_2011-2012_superduty_hscan.dbc message 0x40A] On the 2011, mux values C100 C101 C102 carry the VIN in ASCII. The 2008 id is unknown. Kept so a VIN-bearing frame is not treated as an ordinary signal. Scrub before publishing.";
+CM_ SG_ 1034 Hyp2011_Payload "[confidence=hypothesis] [src=dbc/ford_2011-2012_superduty_hscan.dbc VIN signals] Undecoded payload. Not a claim that this truck sends 0x40A.";
+CM_ BO_ 1056 "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc message 0x420] Coolant in byte 0 on the 2005 6.0, scale 1 offset -40, confirmed there against FORScan ECT while cold. Not confirmed on the 2008. The 2011 truck put a coolant candidate on 0x156 instead.";
+CM_ SG_ 1056 Hyp2005_EngineCoolantTemp "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc EngineCoolantTemp] Degrees C plus 40. Hypothesis only.";
+CM_ BO_ 1088 "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc message 0x440] Byte 0 was a low-confidence brake-switch candidate on the 2005. Brake was not logged there, so this is not a sourced brake signal. Later openDBC brake switches were not copied.";
+CM_ SG_ 1088 Hyp2005_BrakeSwitchCandidate "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc Unknown_B0 on 0x440] Raw byte. Do not present as a confirmed brake pedal.";
+CM_ BO_ 1279 "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc message 0x4FF] The 2005 PCM broadcasts the VIN as three ASCII chunks on 0x4FF. The 2008 id is unknown. Scrub this id before publishing a log anyway.";
+CM_ SG_ 1279 Hyp2005_Payload "[confidence=hypothesis] [src=dbc/ford_2005_superduty_pcm_hscan.dbc VIN_ChunkIndex] Undecoded payload. Not a claim that this truck sends 0x4FF.";
+CM_ BO_ 2015 "[confidence=public-source] [src=ISO 15765-4 11-bit OBD] Functional diagnostic request 0x7DF. This is the legislated id, not a capture from this truck. The logger must not transmit it.";
+CM_ SG_ 2015 DiagPayload "[confidence=public-source] [src=ISO 15765-4] ISO-TP payload, not decoded PIDs.";
+CM_ BO_ 2016 "[confidence=public-source] [src=ISO 15765-4 11-bit OBD] Physical request to ECM number 1, 0x7E0. Not confirmed by a 2008 capture in this repo. Do not transmit.";
+CM_ SG_ 2016 DiagPayload "[confidence=public-source] [src=ISO 15765-4] ISO-TP payload, not decoded PIDs.";
+CM_ BO_ 2017 "[confidence=hypothesis] [src=2005 6.0 logs in 2026-2005-hscan/README.md, plus the 2008 workshop TCM node] The 2005 truck answers the 5R110W at 0x7E1. The 2008 workshop lists a TCM on HS-CAN and this truck integrates that function in the PCM, which can still mean a second diagnostic address. Not seen on a 2008 log.";
+CM_ SG_ 2017 DiagPayload "[confidence=hypothesis] [src=2026-2005-hscan/README.md TCM 7E1/7E9] Undecoded. Not a confirmed 2008 address.";
+CM_ BO_ 2024 "[confidence=public-source] [src=ISO 15765-4 11-bit OBD] ECM response 0x7E8 to physical request 0x7E0. Not confirmed by a 2008 capture in this repo.";
+CM_ SG_ 2024 DiagPayload "[confidence=public-source] [src=ISO 15765-4] ISO-TP payload, not decoded PIDs.";
+CM_ BO_ 2025 "[confidence=hypothesis] [src=2005 6.0 logs in 2026-2005-hscan/README.md] Response side of the 2005 TCM address pair. Not seen on a 2008 log.";
+CM_ SG_ 2025 DiagPayload "[confidence=hypothesis] [src=2026-2005-hscan/README.md] Undecoded. Not a confirmed 2008 address.";
+
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ BO_ "MsgConfidence" ENUM "high","medium","low";
+BA_DEF_ BO_ "MsgSource" STRING ;
+BA_DEF_ SG_ "SigConfidence" ENUM "high","medium","low";
+BA_DEF_ SG_ "SigSource" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "Baudrate" INT 0 1000000;
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "MsgConfidence" "low";
+BA_DEF_DEF_ "MsgSource" "";
+BA_DEF_DEF_ "SigConfidence" "low";
+BA_DEF_DEF_ "SigSource" "";
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "Baudrate" 500000;
+BA_ "BusType" "CAN";
+BA_ "Baudrate" 500000;
+BA_ "MsgConfidence" BO_ 262 2;
+BA_ "MsgConfidence" BO_ 342 2;
+BA_ "MsgConfidence" BO_ 513 2;
+BA_ "MsgConfidence" BO_ 549 2;
+BA_ "MsgConfidence" BO_ 560 2;
+BA_ "MsgConfidence" BO_ 1034 2;
+BA_ "MsgConfidence" BO_ 1056 2;
+BA_ "MsgConfidence" BO_ 1088 2;
+BA_ "MsgConfidence" BO_ 1279 2;
+BA_ "MsgConfidence" BO_ 2015 1;
+BA_ "MsgConfidence" BO_ 2016 1;
+BA_ "MsgConfidence" BO_ 2017 2;
+BA_ "MsgConfidence" BO_ 2024 1;
+BA_ "MsgConfidence" BO_ 2025 2;
+BA_ "SigConfidence" SG_ 262 Hyp2005_EngineLoad 2;
+BA_ "SigConfidence" SG_ 342 Hyp2011_EngineCoolantTemp 2;
+BA_ "SigConfidence" SG_ 513 Hyp2005_EngineSpeed 2;
+BA_ "SigConfidence" SG_ 513 Hyp2005_VehicleSpeed 2;
+BA_ "SigConfidence" SG_ 513 Hyp2005_AccelPedal 2;
+BA_ "SigConfidence" SG_ 513 Hyp2011_VehicleSpeed 2;
+BA_ "SigConfidence" SG_ 549 Hyp2005_OutputShaftSpeed 2;
+BA_ "SigConfidence" SG_ 549 Hyp2005_TransFluidTemp 2;
+BA_ "SigConfidence" SG_ 560 Hyp2005_GearByte 2;
+BA_ "SigConfidence" SG_ 560 Hyp2005_GearRatio 2;
+BA_ "SigConfidence" SG_ 1034 Hyp2011_Payload 2;
+BA_ "SigConfidence" SG_ 1056 Hyp2005_EngineCoolantTemp 2;
+BA_ "SigConfidence" SG_ 1088 Hyp2005_BrakeSwitchCandidate 2;
+BA_ "SigConfidence" SG_ 1279 Hyp2005_Payload 2;
+BA_ "SigConfidence" SG_ 2015 DiagPayload 1;
+BA_ "SigConfidence" SG_ 2016 DiagPayload 1;
+BA_ "SigConfidence" SG_ 2017 DiagPayload 2;
+BA_ "SigConfidence" SG_ 2024 DiagPayload 1;
+BA_ "SigConfidence" SG_ 2025 DiagPayload 2;
