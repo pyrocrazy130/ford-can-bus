@@ -18,6 +18,12 @@ from f350can.candump import CAN_MTU, CanFrame, parse_socket_frame
 SOL_CAN_RAW = 101
 CAN_RAW_LOOPBACK = 3
 CAN_RAW_RECV_OWN_MSGS = 4
+# linux/asm-generic/socket.h. Python 3.14 dropped socket.SO_TIMESTAMP.
+SO_TIMESTAMP_OLD = 29
+SO_TIMESTAMP_NEW = 63
+_TIMESTAMP_CTYPES = {SO_TIMESTAMP_OLD, SO_TIMESTAMP_NEW}
+if hasattr(socket, "SO_TIMESTAMP"):
+    _TIMESTAMP_CTYPES.add(socket.SO_TIMESTAMP)
 
 
 class LinkDown(RuntimeError):
@@ -36,6 +42,12 @@ class SocketCanSource:
                 self._sock.setsockopt(SOL_CAN_RAW, CAN_RAW_RECV_OWN_MSGS, 0)
             except OSError:
                 pass
+            for option in (SO_TIMESTAMP_OLD, SO_TIMESTAMP_NEW):
+                try:
+                    self._sock.setsockopt(socket.SOL_SOCKET, option, 1)
+                    break
+                except OSError:
+                    continue
             try:
                 self._sock.shutdown(socket.SHUT_WR)
                 self.write_shutdown = True
@@ -43,10 +55,6 @@ class SocketCanSource:
                 # CAN raw sockets often reject SHUT_WR. The class still never
                 # calls send(). Listen-only on the netdev is the real gate.
                 self.write_shutdown = False
-            try:
-                self._sock.setsockopt(socket.SOL_SOCKET, socket.SO_TIMESTAMP, 1)
-            except OSError:
-                pass
         except Exception:
             self._sock.close()
             raise
@@ -76,7 +84,7 @@ class SocketCanSource:
 
 def _timestamp_from_ancdata(ancdata) -> float | None:
     for level, ctype, payload in ancdata:
-        if level != socket.SOL_SOCKET or ctype != socket.SO_TIMESTAMP:
+        if level != socket.SOL_SOCKET or ctype not in _TIMESTAMP_CTYPES:
             continue
         if len(payload) >= 16:
             sec, usec = struct.unpack_from("qq", payload)

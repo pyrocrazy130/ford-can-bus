@@ -115,6 +115,18 @@ def test_candump_line_matches_repo_style():
     assert parsed.data.hex().upper() == "00FF00000000003D"
 
 
+def test_kernel_timestamp_option_does_not_need_socket_SO_TIMESTAMP():
+    import socket
+    import struct
+
+    from f350can.socketcan import SO_TIMESTAMP_OLD, _timestamp_from_ancdata
+
+    payload = struct.pack("qq", 1_700_000_000, 123456)
+    ts = _timestamp_from_ancdata([(socket.SOL_SOCKET, SO_TIMESTAMP_OLD, payload)])
+    assert ts == pytest.approx(1_700_000_000.123456)
+    assert SO_TIMESTAMP_OLD == 29
+
+
 def test_parse_socket_frame_layout():
     raw = struct.pack("<IB3x8s", 0x201, 4, bytes.fromhex("aabbccdd") + b"\x00" * 4)
     frame = parse_socket_frame(raw, 10.5, "can0")
