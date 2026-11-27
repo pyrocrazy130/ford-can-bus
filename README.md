@@ -12,6 +12,7 @@ Public archive of CAN / OBD captures used for a 2005 F-350 6.0L ↔ 2012 Lariat 
 | `2020-mscan-truck/` | **Friend's 2011 F-350 6.7L** MS-CAN (~125k) truck captures and wake-set excerpts (2020-06-02) |
 | `2020-mscan-bench/` | Bench MS-CAN with 2012-era HVAC (± DCSM) modules (2020-06-04 / 06-10 / 06-12) |
 | `dbc/` | Decoded DBC copies (VIN strings scrubbed): 2005 PCM HS, 2011–2012 HS, 2012 MS |
+| `vehicles/2008-f350-6.4/` | **2008 F-350 6.4L** passive logger, listen-only root helper, starter HS-CAN DBC, FORScan correlation tools. Raw captures stay in `~/truck-logs`, not in git. |
 | `tools/mask_vin.py` | Script used to produce the masked public CAN logs |
 | `Drive around the block.log` | Friend's 2011 HS-CAN BUSMASTER drive log (2021-06-08) — **VIN masked** |
 | `candump-2020-06-02_191322.log` / `191626.log` | Historical MS truck candumps (kept at repo root; **VIN masked**) |

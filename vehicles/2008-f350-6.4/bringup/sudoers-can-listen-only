@@ -1,0 +1,6 @@
+# Restricted sudoers snippet. Replace YOUR_USERNAME.
+# Install with: sudo visudo -f /etc/sudoers.d/can-listen-only
+# The file must be owned by root and mode 0440.
+# This allows one helper and nothing else. It does not allow a root shell
+# and it does not allow ip(8) directly.
+YOUR_USERNAME ALL=(root) NOPASSWD: /usr/local/sbin/can-listen-only-up

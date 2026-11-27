@@ -24,7 +24,7 @@ def sha256(p):
             h.update(chunk)
     return h.hexdigest()
 
-def mask_candump(src, dst):
+def mask_candump(src, dst, quiet=False):
     lines = open(src, 'rb').read().splitlines(True)
     out = []
     vin_cf_left = 0
@@ -88,7 +88,8 @@ def mask_candump(src, dst):
         else:
             out.append(raw)
     pathlib.Path(dst).write_bytes(b''.join(out))
-    print(sha256(src), sha256(dst))
+    if not quiet:
+        print(sha256(src), sha256(dst))
 
 def mask_busmaster(src, dst):
     raw = open(src, 'rb').read()

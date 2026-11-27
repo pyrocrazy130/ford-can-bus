@@ -1,0 +1,95 @@
+#!/bin/bash
+# Bring existing SocketCAN interfaces up in listen-only mode.
+#
+# The CAN logger runs as a normal user. This is the only command that needs
+# root, and it only does the four `ip link` operations below for each
+# interface the caller named. It never sends a CAN frame, never opens a
+# serial device, and refuses any name other than can<number>, so it cannot
+# target the OBDLink EX.
+#
+# Install (as root), then point pkexec or sudoers at that exact path:
+#   install -o root -g root -m 0755 can-listen-only-up /usr/local/sbin/can-listen-only-up
+#
+# Usage:
+#   can-listen-only-up can0=500000 can1=125000
+#   can-listen-only-up --dry-run can0=500000
+set -euo pipefail
+
+DRY=0
+if [[ "${1:-}" == "--dry-run" ]]; then
+  DRY=1
+  shift
+fi
+
+if [[ $# -lt 1 ]]; then
+  echo "usage: can-listen-only-up [--dry-run] can0=500000 [can1=125000 ...]" >&2
+  exit 2
+fi
+
+declare -a IFACES=()
+declare -a RATES=()
+
+for spec in "$@"; do
+  if [[ ! "$spec" =~ ^can[0-9]+=[0-9]+$ ]]; then
+    echo "refusing spec (want canN=125000 or canN=500000): ${spec}" >&2
+    exit 2
+  fi
+  iface="${spec%%=*}"
+  rate="${spec#*=}"
+  if [[ "$rate" != "125000" && "$rate" != "500000" ]]; then
+    echo "refusing bitrate ${rate} on ${iface} (only 125000 or 500000)" >&2
+    exit 2
+  fi
+  if [[ " ${IFACES[*]:-} " == *" ${iface} "* ]]; then
+    echo "duplicate interface ${iface}" >&2
+    exit 2
+  fi
+  IFACES+=("${iface}")
+  RATES+=("${rate}")
+done
+
+run_one() {
+  local iface="$1"
+  local rate="$2"
+  printf 'ip link set %s down\n' "${iface}"
+  printf 'ip link set %s type can bitrate %s listen-only on restart-ms 0\n' "${iface}" "${rate}"
+  printf 'ip link set %s up\n' "${iface}"
+  printf 'ip link set %s txqueuelen 1000\n' "${iface}"
+}
+
+if [[ "${DRY}" -eq 1 ]]; then
+  for i in "${!IFACES[@]}"; do
+    run_one "${IFACES[$i]}" "${RATES[$i]}"
+  done
+  exit 0
+fi
+
+if [[ "$(id -u)" -ne 0 ]]; then
+  echo "can-listen-only-up must run as root via pkexec or sudo. Do not run the logger UI as root." >&2
+  exit 1
+fi
+
+ip_bin="$(command -v ip)"
+for i in "${!IFACES[@]}"; do
+  iface="${IFACES[$i]}"
+  rate="${RATES[$i]}"
+  sys="/sys/class/net/${iface}"
+  if [[ ! -d "${sys}" ]]; then
+    echo "no such interface: ${iface}" >&2
+    exit 1
+  fi
+  typ="$(cat "${sys}/type")"
+  if [[ "${typ}" != "280" ]]; then
+    echo "refusing ${iface}: not an ARPHRD_CAN device (type ${typ})" >&2
+    exit 1
+  fi
+  "${ip_bin}" link set "${iface}" down
+  "${ip_bin}" link set "${iface}" type can bitrate "${rate}" listen-only on restart-ms 0
+  "${ip_bin}" link set "${iface}" up
+  "${ip_bin}" link set "${iface}" txqueuelen 1000
+  if ! "${ip_bin}" -details link show "${iface}" | grep -qi 'listen-only'; then
+    "${ip_bin}" link set "${iface}" down || true
+    echo "listen-only did not stick on ${iface}; interface left down" >&2
+    exit 1
+  fi
+done
